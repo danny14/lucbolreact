@@ -1,0 +1,13 @@
+.NavBarLucbol{
+    background-color: rgba(var(--color-rgb-blue),0.5) !important;
+}
+
+.NavBarLucbol a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+.NavBarLucbol a:hover {
+    color:var(--color-yellow);
+}
