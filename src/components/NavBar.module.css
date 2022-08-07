@@ -1,8 +1,14 @@
 .NavBarLucbol{
     background-color: rgba(var(--color-rgb-blue),0.5) !important;
+    height: 103px;
+}
+
+.NavBarBrandLogo{
+    margin-left: 147px;
 }
 
 .NavBarLucbol a {
+    color: var(--color-white);
     font-size: 18px;
     font-weight: 500;
     line-height: 23px;
@@ -11,3 +17,38 @@
 .NavBarLucbol a:hover {
     color:var(--color-yellow);
 }
+
+.NavBarLucbol button {
+    border-radius: 58px;
+    background-color: var(--color-blue);
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 17px 17px 17px 27px !important; 
+}
+
+.NavCenter {
+    /*color: var(--color-white) !important;*/
+    padding-top: 20px !important;
+}
+
+.ButtonClass {
+    padding: 10px !important;
+    margin-left: 74px;
+}
+
+.ButtonRotate {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 6px;
+    transform: rotate(-90deg);
+    color: var(--color-yellow);
+}
+
+.NavBarRedes{
+    margin-right: 57px;
+}
+
+
+
