@@ -1,0 +1,78 @@
+.AboutUsContainer {
+    background-color: var(--color-blue);
+    width: auto;
+    height: auto;
+}
+
+.AboutUsTitle {
+    padding-top: 10px;
+}
+
+.AboutUsTitle h1 {
+    margin-top: 16px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 78px;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.AboutUsTitle h3 {
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--color-yellow);
+}
+
+.AboutUsTitle p {
+    margin-top: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.AboutUsCardsContainer {
+    padding: 10px;
+    text-align: center;
+}
+
+.AboutUsCard {
+    background-color: var(--color-bluesky) !important;
+    border-radius: 50px !important;
+    width: 350px !important;
+
+}
+
+.AboutUsCardsContainer img {
+    width: 20%;
+    height: 20%;
+    left: auto;
+    right: auto;
+}
+
+.AboutUsCardTitle {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 59px;
+    color: var(--color-blue) !important;
+}
+
+.AboutUsCardText {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--color-black) !important;
+}
