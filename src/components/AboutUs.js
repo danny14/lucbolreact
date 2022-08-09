@@ -18,13 +18,13 @@ export default function AboutUs(){
                 <p>Analytics and Planning for Call Centers, everything you need to manage your Call Center, in a single platform.</p>
             </div>
             <div className={styles.AboutUsCardsContainer}>
-                <Row>
+                <Row >
                     <Col>
                         <img src={MissionImage} alt='Our Mission' width="10" height="20" className="d-inline-block align-top"></img>
-                        <Card className={styles.AboutUsCard}>
+                        <Card className={styles.AboutUsCard + " mx-auto"}>
                             <Card.Body>
                                 <Card.Title className={styles.AboutUsCardTitle}>Our Mission</Card.Title>
-                                <Card.Text>
+                                <Card.Text className={styles.AboutUsCardText}>
                                     To provide top quality call center services to our clients with our outsourcing program. We work to help companies comunicate with their end customers.
                                     We do B2B, B2C Sales, Customer Service, Loan Servicing and First Party Collection Services, including both inbound and outbound calls.
                                 </Card.Text>
@@ -33,10 +33,10 @@ export default function AboutUs(){
                     </Col>
                     <Col>
                         <img src={ExperienceImage} alt='Experience' width="10" height="20" className="d-inline-block align-top"></img>
-                        <Card className={styles.AboutUsCard}>
+                        <Card className={styles.AboutUsCard + " mx-auto"}>
                             <Card.Body>
                                 <Card.Title className={styles.AboutUsCardTitle}>Experience</Card.Title>
-                                <Card.Text>
+                                <Card.Text className={styles.AboutUsCardText}>
                                     Our  executives have worked with renowned USA brands such as JPMorgan Chase, TCF Bank, WFS Financial, Barnett Bank, U.S. Small Business Administration,
                                     and Coca Cola Refreshments. We are a dedicated and well-trained team of customer support specialists, able to consistently provide excellent services.
                                 </Card.Text>
@@ -45,7 +45,7 @@ export default function AboutUs(){
                     </Col>  
                     <Col>
                         <img src={PricesImage} alt='Good Prices' width="10" height="20" className="d-inline-block align-top"></img>
-                        <Card className={styles.AboutUsCard}>
+                        <Card className={styles.AboutUsCard + " mx-auto"}>
                             <Card.Body>
                                 <Card.Title className={styles.AboutUsCardTitle}>Good Prices</Card.Title>
                                 <Card.Text className={styles.AboutUsCardText}>
