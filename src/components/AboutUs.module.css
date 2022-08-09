@@ -1,7 +1,7 @@
 .AboutUsContainer {
-    background-color: var(--color-blue);
-    width: auto;
-    height: auto;
+    background-color: var(--color-blue) !important;
+    height: auto !important;
+    max-width: none !important;
 }
 
 .AboutUsTitle {
@@ -35,44 +35,52 @@
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
+    font-size: 18px;
     line-height: 28px;
     text-align: center;
     color: var(--color-white);
 }
 
-.AboutUsCardsContainer {
-    padding: 10px;
-    text-align: center;
-}
-
 .AboutUsCard {
     background-color: var(--color-bluesky) !important;
     border-radius: 50px !important;
-    width: 350px !important;
+    width: 340px !important;
+    height: 300px !important;
+    margin-top: 20px;  
+}
 
+.AboutUsCardsContainer {
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 100px;
 }
 
 .AboutUsCardsContainer img {
-    width: 20%;
-    height: 20%;
+    width: 130px;
+    height: 132px;
     left: auto;
     right: auto;
+    margin-top: 60px;
 }
 
 .AboutUsCardTitle {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 38px !important;
     line-height: 59px;
     color: var(--color-blue) !important;
 }
 
 .AboutUsCardText {
+    padding: 10px 10px 10px 10px;
     font-family: 'DM Sans';
     font-style: normal;
+    text-align: justify;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 18px;
+    width: 305px !important;
+    height: 222px !important;
     color: var(--color-black) !important;
 }
