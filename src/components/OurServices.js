@@ -1,5 +1,5 @@
 import Container from 'react-bootstrap/Container';
-import styles from './AboutUs.module.css';
+import styles from './OurServices.module.css';
 /*import * as Icon from 'react-bootstrap-icons';
 import Button from 'react-bootstrap/Button';*/
 import Row from 'react-bootstrap/Row';
@@ -9,11 +9,11 @@ import MissionImage from './../assets/image/mission-image.png';
 import ExperienceImage from './../assets/image/experience-image.png';
 import PricesImage from './../assets/image/prices-image.png';
 
-export default function AboutUs(){
+export default function OurServices(){
     return (
         <Container className={styles.AboutUsContainer}>
             <div className={styles.AboutUsTitle}>
-                <h3>WHY TO CHOOSE US?</h3>
+                <h3>Why to choose us?</h3>
                 <h1>ABOUT US</h1>
                 <p>Analytics and Planning for Call Centers, everything you need to manage your Call Center, in a single platform.</p>
             </div>

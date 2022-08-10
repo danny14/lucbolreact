@@ -32,9 +32,6 @@ export default function HeroSection(){
                 </Col>
                 <Col sm={6}></Col>
             </Row>
-
-
-
         </Container>
       );
 }
