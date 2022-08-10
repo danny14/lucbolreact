@@ -25,15 +25,15 @@ function NavScroll() {
           >
             <Nav.Link className={styles.NavCenter} href="#action1">Home</Nav.Link>
             <Nav.Link className={styles.NavCenter} href="#action2">About Us</Nav.Link>
-            <Nav.Link className={styles.NavCenter} href="#action2">Our Services</Nav.Link>
-            <Nav.Link className={styles.NavCenter} href="#action2">Team</Nav.Link>
+            <Nav.Link className={styles.NavCenter} href="#action3">Our Services</Nav.Link>
+            <Nav.Link className={styles.NavCenter} href="#action4">Team</Nav.Link>
             <Button className={styles.ButtonClass}>Contact US <Icon.Telephone className={styles.ButtonRotate}/></Button>
           </Nav>          
         </Navbar.Collapse>
         <Nav className={styles.NavBarRedes}>
           <Nav.Link href="#action1"><img src={FacebookLogo} alt='Facebook' width="10" height="20" className="d-inline-block align-top"></img></Nav.Link>
-          <Nav.Link href="#action1"><img src={TwitterLogo} alt='Twitter' width="20" height="20" className="d-inline-block align-top"></img></Nav.Link>
-          <Nav.Link href="#action1"><img src={InstagramLogo} alt='Instagram' width="20" height="20" className="d-inline-block align-top"></img></Nav.Link>
+          <Nav.Link href="#action2"><img src={TwitterLogo} alt='Twitter' width="20" height="20" className="d-inline-block align-top"></img></Nav.Link>
+          <Nav.Link href="#action3"><img src={InstagramLogo} alt='Instagram' width="20" height="20" className="d-inline-block align-top"></img></Nav.Link>
         </Nav>
       </Container>
     </Navbar>

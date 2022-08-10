@@ -9,7 +9,7 @@ import PersonalImage from './../assets/image/personal-image.png';
 
 export default function OurTeam(){
     return (
-        <Container className={styles.OurteamContainer}>
+        <Container className={styles.OurTeamContainer}>
             <div className={styles.OurTeamTitle}>
                 <h3>MEET US</h3>
                 <h1>OUR TEAM</h1>
@@ -18,11 +18,11 @@ export default function OurTeam(){
                    Florida and Medellin, Colombia.
                 </p>
             </div>
-            <div className={styles.OurteamFigureContainer}>
+            <div className={styles.OurTeamFigureContainer}>
                 <Row >
                     <Col>
-                        <Figure className={styles.OurteamFigure + " d-flex justify-content-around align-items-end"}>
-                            <Figure.Image  src={PersonalImage} alt="171x180"  />
+                        <Figure className={styles.OurTeamFigure + " d-flex justify-content-around"}>
+                            <Figure.Image  src={PersonalImage} alt="171x180" />
                             <Figure.Caption className={styles.OurTeamReference}>
                                 <h5>Mr. Luis Luccani</h5>
                                 <p>CEO of Vine</p>
@@ -30,11 +30,11 @@ export default function OurTeam(){
                         </Figure>
                     </Col>
                     <Col>
-                        <Figure className={styles.OurteamFigure + " d-flex justify-content-around align-items-end"}>
-                            <Figure.Image src={PersonalImage} alt="171x180"  />
+                        <Figure className={styles.OurTeamFigure + " d-flex justify-content-around"}>
+                            <Figure.Image src={PersonalImage} alt="171x180" />
                             <Figure.Caption className={styles.OurTeamReference}>
-                                <h5>Prueba</h5>
-                                <p>CEO of Vine</p>
+                                <h5>Mr. Jaime Bolagay</h5>
+                                <p>Top Manager</p>
                             </Figure.Caption>
                         </Figure>
                     </Col>    
