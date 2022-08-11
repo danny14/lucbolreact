@@ -6,6 +6,7 @@
   --color-bluesky: #D3E9F6;
   --color-gray: #CECDCD;
   --color-white: #FFFFFF;
+  --color-pink: #E74066;
 
   --color-rgb-blue:35, 66, 97;
   --color-rgb-black: 8, 7, 6;
@@ -13,6 +14,7 @@
   --color-rgb-bluesky: 211, 233, 246;
   --color-rgb-gray: 206, 205, 205;
   --color-rgb-white: 255, 255, 255;
+  --color-rgb-pink: 231, 64, 102;
 }
 
 body {

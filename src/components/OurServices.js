@@ -12,6 +12,10 @@ import Loanservicing from './../assets/image/Loanservicing.png';
 export default function OurServices(){
     return (
         <Container fluid className={styles.OurServiceContainer}>
+            <div className={styles.OurServiceBrand + ' mx-auto'}>
+                <h2>THE CALL CENTER INDUSTRY IS GROWING</h2>
+                <p>Businesses are becoming increasingly aware of the need for market information and the desire to reduce customer turnover rates in a hard-hit economy. A significant trend in this industry is the growing number of clients who wish to outsource bilingual call centers in Latin America instead of developing such infrastructure in-house.</p>
+            </div>
             <div className={styles.OurServicesTitle + ''}>
                 <h3>TOP BENEFITS</h3>
                 <h1>OUR SERVICES</h1>
