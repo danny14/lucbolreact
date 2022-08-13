@@ -1,5 +1,6 @@
 .NavBarLucbol{
-    background-color: rgba(var(--color-rgb-blue),0.5) !important;
+    /*background-color: rgba(var(--color-rgb-aqua),0.5) !important;*/
+    background-color: var(--color-aqua) !important;
     height: 103px;
 }
 
@@ -15,12 +16,12 @@
 }
 
 .NavBarLucbol a:hover {
-    color:var(--color-yellow);
+    color:var(--color-deepblue);
 }
 
 .NavBarLucbol button {
     border-radius: 58px;
-    background-color: var(--color-blue);
+    background-color: var(--color-pink);
     border: none;
     font-weight: 500;
     font-size: 18px;
@@ -43,7 +44,7 @@
     margin-right: 10px;
     margin-bottom: 6px;
     transform: rotate(-90deg);
-    color: var(--color-yellow);
+    color: var(--color-white);
 }
 
 .NavBarRedes{

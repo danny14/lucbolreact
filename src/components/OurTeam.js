@@ -5,7 +5,9 @@ import Button from 'react-bootstrap/Button';*/
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Figure from 'react-bootstrap/Figure';
-import PersonalImage from './../assets/image/personal-image.png';
+//import LuisImage from './../assets/image/Luis-Luccani-image.jpeg';
+import LuisImage from './../assets/image/luccani-prueba-image.jpeg';
+import JaimeImage from './../assets/image/Jaime-Bolagay-image.jpeg';
 
 export default function OurTeam(){
     return (
@@ -22,7 +24,7 @@ export default function OurTeam(){
                 <Row >
                     <Col>
                         <Figure className={styles.OurTeamFigure + " d-flex justify-content-around"}>
-                            <Figure.Image  src={PersonalImage} alt="171x180" />
+                            <Figure.Image  src={LuisImage} alt="Mr. Luis Luccani - CEO of Vine" />
                             <Figure.Caption className={styles.OurTeamReference}>
                                 <h5>Mr. Luis Luccani</h5>
                                 <p>CEO of Vine</p>
@@ -31,7 +33,7 @@ export default function OurTeam(){
                     </Col>
                     <Col>
                         <Figure className={styles.OurTeamFigure + " d-flex justify-content-around"}>
-                            <Figure.Image src={PersonalImage} alt="171x180" />
+                            <Figure.Image src={JaimeImage} alt="Mr. Jaime Bolagay - Top Manager" />
                             <Figure.Caption className={styles.OurTeamReference}>
                                 <h5>Mr. Jaime Bolagay</h5>
                                 <p>Top Manager</p>

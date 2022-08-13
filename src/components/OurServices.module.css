@@ -87,6 +87,7 @@
 
 .OurServicesCardTitle {
     text-align: center;
+    color: var(--color-white) !important;
     /* font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -97,6 +98,7 @@
 
 .OurServicesCardText {
     text-align: justify;
+    color: var(--color-white) !important;
     /* padding: 10px 10px 10px 10px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -111,7 +113,7 @@
 
 .OurServicesCardBody{
     border-radius: 50px;
-    background-color: var(--color-bluesky);
+    background-color: var(--color-deepblue);
     color: var(--color-blue) !important;
     margin-top: -2rem;
     width: 97%;

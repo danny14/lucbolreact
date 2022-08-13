@@ -5,9 +5,9 @@ import Button from 'react-bootstrap/Button';*/
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import MissionImage from './../assets/image/mission-image.png';
-import ExperienceImage from './../assets/image/experience-image.png';
-import PricesImage from './../assets/image/prices-image.png';
+import MissionImage from './../assets/image/mission-image-pink.png';
+import ExperienceImage from './../assets/image/experience-image-pink.png';
+import PricesImage from './../assets/image/prices-image-pink.png';
 
 export default function AboutUs(){
     return (
