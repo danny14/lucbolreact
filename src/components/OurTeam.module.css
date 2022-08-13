@@ -1,5 +1,5 @@
 .OurTeamContainer {
-    background-color: var(--color-blue) !important;
+    background-color: var(--color-aqua) !important;
     height: none !important;
     max-width: none !important;
 }
@@ -16,7 +16,7 @@
     font-size: 60px;
     line-height: 78px;
     text-align: center;
-    color: var(--color-yellow);
+    color: var(--color-pink);
 }
 
 .OurTeamTitle h3 {
@@ -27,7 +27,7 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
-    color: var(--color-white);
+    color: var(--color-deepblue);
 }
 
 .OurTeamTitle p {
@@ -64,16 +64,16 @@
     font-style: normal;
     width: 250px !important;
     height: 70px !important;
-    background: var(--color-bluesky);
+    background: var(--color-pink);
     margin-top: 305px;
     border-radius: 100px;
 }
 
 .OurTeamReference h5 {
     padding: 5px;
-    color: var(--color-black);
+    color: var(--color-white);
 }
 
 .OurTeamReference p {
-    color: var(--color-grey);
+    color: var(--color-deepblue);
 }
