@@ -1,0 +1,6 @@
+.FormContainer {
+    background-image: url('./../assets/image/mapBackground.png');
+    /*background-color: var(--color-white) !important;*/
+    height: none !important;
+    max-width: none !important;
+}
