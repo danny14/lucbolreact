@@ -1,7 +1,5 @@
 import Container from 'react-bootstrap/Container';
 import styles from './Reviews.module.css';
-import Carousel from 'react-bootstrap/Carousel';
-import PersonalImage from './../assets/image/personal-image.png';
 import ImageBrand from './../assets/image/call-center-agent.png';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';

@@ -17,7 +17,7 @@ export default class Testimonials extends Component {
         interval={6100}
       >
         <div>
-          <img src={imageFirst} />
+          <img src={imageFirst} alt="Reviews"/>
           <div className="myCarousel">
             <h3>Shirley Fultz</h3>
             <h4>Designer</h4>
@@ -29,7 +29,7 @@ export default class Testimonials extends Component {
         </div>
 
         <div>
-          <img src={imageSecond} />
+          <img src={imageSecond} alt="Reviews"/>
           <div className="myCarousel">
             <h3>Daniel Keystone</h3>
             <h4>Designer</h4>
@@ -41,7 +41,7 @@ export default class Testimonials extends Component {
         </div>
 
         <div>
-          <img src={imageThird} />
+          <img src={imageThird} alt="Reviews"/>
           <div className="myCarousel">
             <h3>Theo Sorel</h3>
             <h4>Designer</h4>
