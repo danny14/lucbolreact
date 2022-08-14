@@ -1,5 +1,6 @@
 .HeroSectionContainer{
-    margin: 90px;   
+    margin: 90px;
+    margin-left: 100px !important;  
 }
 
 .HeroSection button{
@@ -46,6 +47,9 @@
 }
 
 .HeroSection p{
+    margin-top: 40px;
+    width: 465px;
+    height: 140px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
