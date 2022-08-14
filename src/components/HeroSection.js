@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 
 export default function HeroSection(){
     return (
-        <Container className={styles.HeroSectionContainer}>
+        <Container fluid className={styles.HeroSectionContainer}>
             <Row>
                 <Col sm={6}>
                     <div className={styles.HeroSection}>

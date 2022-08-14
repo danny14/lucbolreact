@@ -21,7 +21,7 @@ export default function Forms(){
     };
 
     return (
-        <Container className={styles.FormContainer}>
+        <Container fluid className={styles.FormContainer}>
             <div className={styles.FormTitle}>
                 <Row>
                     <Col sm={6}>
@@ -33,7 +33,7 @@ export default function Forms(){
                         <Form className={styles.FormStructure} noValidate validated={validated} onSubmit={handleSubmit}>
                             <Form.Group className="mb-3" controlId="formName">
                                 <Form.Label>Full Name</Form.Label>
-                                <Form.Control required type="text" placeholder="Full Name" feedback="Full Name is a required field." feedbackType="invalid"/>
+                                <Form.Control required type="text" placeholder="Full Name" feedback="Full Name is a required field." />
                                 <Form.Control.Feedback type="invalid">
                                     Full Name is a required field.
                                 </Form.Control.Feedback>
@@ -52,7 +52,7 @@ export default function Forms(){
                             <Form.Group className="mb-3" controlId="formTerms">
                                 <Row >
                                     <Col>
-                                        <Form.Check type="checkbox" required label="Accept terms & conditions" feedback="You must agree before submitting." feedbackType="invalid"/>
+                                        <Form.Check type="checkbox" required label="Accept terms & conditions" feedback="You must agree before submitting." />
                                     </Col>
                                     <Col>
                                         <Button variant="primary" type="submit">Send <Icon.ArrowRight className={styles.IconForm}/></Button>

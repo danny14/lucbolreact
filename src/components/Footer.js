@@ -7,7 +7,7 @@ import LucbolLogo from './../assets/image/lucbol-logo.png';
 
 export default function Footer(){
     return (
-        <Container className={styles.FooterContainer + ' mx-auto'}>
+        <Container fluid className={styles.FooterContainer + ' mx-auto'}>
             <Row>
                 <Col sm={4}>
                     <img src={LucbolLogo} alt='Logo' className="d-inline-block align-top"></img>

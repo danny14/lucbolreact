@@ -11,7 +11,7 @@ import JaimeImage from './../assets/image/Jaime-Bolagay-image.jpeg';
 
 export default function OurTeam(){
     return (
-        <Container className={styles.OurTeamContainer}>
+        <Container fluid className={styles.OurTeamContainer}>
             <div className={styles.OurTeamTitle}>
                 <h3>MEET US</h3>
                 <h1>OUR TEAM</h1>
