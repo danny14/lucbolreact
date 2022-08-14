@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import * as Icon from 'react-bootstrap-icons';
+import Testimonials from './Testimonials'
 
 export default function Reviews(){
     return (
@@ -16,42 +17,9 @@ export default function Reviews(){
                 <h1>REVIEW FROM CLIENTS</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
             </div>
-            <div className={styles.ReviewsFigureContainer}>
-                <Carousel variant="dark">
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={PersonalImage}
-                            alt="First slide" />
-                        <Carousel.Caption>
-                            <h5>First slide label</h5>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={PersonalImage}
-                            alt="Second slide" />
-                        <Carousel.Caption>
-                            <h5>Second slide label</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={PersonalImage}
-                            alt="Third slide" />
-                        <Carousel.Caption>
-                            <h5>Third slide label</h5>
-                            <p>
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                            </p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
-            </div>
+            {/* <div className={styles.ReviewsFigureContainer}> */}
+                <Testimonials></Testimonials>
+            {/* </div> */}
         </Container>
         <Container className={styles.ReviewsBrandContainer}>
             <div className={styles.ReviewsBrand}>
