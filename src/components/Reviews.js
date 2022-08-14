@@ -9,7 +9,7 @@ import Testimonials from './Testimonials'
 
 export default function Reviews(){
     return (
-        <><Container className={styles.ReviewsContainer}>
+        <><Container fluid className={styles.ReviewsContainer}>
             <div className={styles.ReviewsTitle}>
                 <h3>TESTIMONIALS</h3>
                 <h1>REVIEW FROM CLIENTS</h1>
@@ -19,7 +19,7 @@ export default function Reviews(){
                 <Testimonials></Testimonials>
             {/* </div> */}
         </Container>
-        <Container className={styles.ReviewsBrandContainer}>
+        <Container fluid className={styles.ReviewsBrandContainer}>
             <div className={styles.ReviewsBrand}>
                 <Row >
                     <Col>
