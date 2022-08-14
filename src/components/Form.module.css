@@ -1,6 +1,67 @@
 .FormContainer {
-    background-image: url('./../assets/image/mapBackground.png');
-    /*background-color: var(--color-white) !important;*/
-    height: none !important;
+    background-image: url('./../assets/image/mapBackground.png') !important;
+    background-repeat: no-repeat;
+    max-height: none !important;
     max-width: none !important;
+    margin: 200px;
+    /*margin-top: 120px;
+    margin-bottom: 120px;*/
+}
+
+.FormTitle {
+    margin-left: 150px;
+}
+
+.FormTitle h1 {
+    margin-top: 16px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 78px;
+    text-align: left;
+    color: var(--color-deepblue);
+}
+
+.FormTitle h3 {
+    margin-top: 100px;
+    text-align: left;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--color-pink);
+}
+
+.FormTitle p {
+    margin-top: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: var(--color-grey);
+}
+
+.FormStructure button {
+    border-radius: 58px;
+    background-color: var(--color-pink);
+    border: none;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 27px;
+    width: 200px;
+    height: 70px;
+    margin-bottom: 460px;
+}
+
+.IconForm{
+    size: 30px!important;
+    color: var(--color-deepblue);
+}
+
+.FormStructure {
+    margin-top: 100px;
 }
