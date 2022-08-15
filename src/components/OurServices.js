@@ -8,6 +8,7 @@ import Card from 'react-bootstrap/Card';
 import ITDevelopment from './../assets/image/ITDevelopment.png';
 import B2CSALES from './../assets/image/B2CSALES.png';
 import Loanservicing from './../assets/image/Loanservicing.png';
+import ComplianceHotline from './../assets/image/compliance-hotline.jpg';
 
 export default function OurServices(){
     return (
@@ -15,6 +16,7 @@ export default function OurServices(){
             <div className={styles.OurServiceBrand + ' mx-auto'}>
                 <h2>THE CALL CENTER INDUSTRY IS GROWING</h2>
                 <p>Businesses are becoming increasingly aware of the need for market information and the desire to reduce customer turnover rates in a hard-hit economy. A significant trend in this industry is the growing number of clients who wish to outsource bilingual call centers in Latin America instead of developing such infrastructure in-house.</p>
+                <div className={styles.OurServicePrueba}><p>5.6% and 7% per year.</p></div>
             </div>
             <div id="OurServices" className={styles.OurServicesTitle}>
                 <h3>TOP BENEFITS</h3>
@@ -46,7 +48,19 @@ export default function OurServices(){
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                    </Col>  
+                    </Col>
+                    <Col>
+                        {/* <img src={PricesImage} alt='Good Prices' width="10" height="20" className="d-inline-block align-top"></img> */}
+                        <Card className={styles.OurServicesCard + " mx-auto"}>
+                            <Card.Img variant="top" src={ComplianceHotline} />
+                            <Card.Body className={styles.OurServicesCardBody}>
+                                <Card.Title className={styles.OurServicesCardTitle}>Compliance Hotline</Card.Title>
+                                <Card.Text className={styles.OurServicesCardText}>
+                                Text for Compliance Hotline.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
                     <Col>
                         {/* <img src={PricesImage} alt='Good Prices' width="10" height="20" className="d-inline-block align-top"></img> */}
                         <Card className={styles.OurServicesCard + " mx-auto"}>

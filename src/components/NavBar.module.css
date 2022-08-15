@@ -29,6 +29,10 @@
     padding: 17px 17px 17px 27px !important; 
 }
 
+.NavBarLucbol button:hover {
+    background-color:var(--color-deepblue);
+}
+
 .NavCenter {
     /*color: var(--color-white) !important;*/
     padding-top: 20px !important;

@@ -12,4 +12,9 @@
     color:var(--color-pink);
 }
 
+.FooterCopyright {
+    color: var(--color-darkgray);
+    text-align: center;
+}
+
 

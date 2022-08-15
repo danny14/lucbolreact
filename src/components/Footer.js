@@ -9,7 +9,7 @@ import InstagramLogo from './../assets/image/instagram-footer.png';
 
 export default function Footer(){
     return (
-        <Container className={styles.FooterContainer + ' mx-auto'}>
+        <><Container className={styles.FooterContainer + ' mx-auto'}>
             <Row>
                 <Col>
                     <a href='#Home'><img src={LucbolLogo} alt='Logo' className="d-inline-block align-top"></img></a>
@@ -57,5 +57,9 @@ export default function Footer(){
                 </Col>
             </Row>
         </Container>
+        <Container fluid className={styles.FooterCopyright}>
+            <hr />
+            <p>Copyright © 2022 Lucbol Global Managment. All rights reserved.</p>
+        </Container></>
       );
 }
