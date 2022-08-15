@@ -15,7 +15,7 @@ export default function Forms(){
     const [variant, setVariant] = useState('');
     const [info, setInfo] = useState('');
 
-    const handleSubmit = (event) => {        
+    const handleSubmit = (event) => {
         const form = event.currentTarget;
         console.log(event.target)
         if (form.checkValidity() === false) {
@@ -23,7 +23,7 @@ export default function Forms(){
             setShow(true);
             setVariant('info');
             setInfo('Complete the form!');
-            event.stopPropagation();            
+            event.stopPropagation();
         }else{
             setValidated(true);
             event.preventDefault();
@@ -88,10 +88,10 @@ export default function Forms(){
                                     <Col>
                                         <Button variant="primary" type="submit" className={styles.ButtonForm}>Send <Icon.ArrowRight className={styles.IconForm}/></Button>
                                     </Col>
-                                </Row>                                 
-                            </Form.Group>                            
+                                </Row>
+                            </Form.Group>
                         </Form>
-                    </Col>      
+                    </Col>
                 </Row>
             </div>
         </Container>

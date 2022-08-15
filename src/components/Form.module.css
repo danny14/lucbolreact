@@ -59,7 +59,7 @@
 }
 
 .ButtonForm:hover {
-    background-color: var(--color-deepblue);
+    background-color: var(--color-deepblue) !important;
 }
 
 .ButtonForm:hover > .IconForm {

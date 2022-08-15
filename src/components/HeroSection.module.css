@@ -9,6 +9,40 @@
 .HeroSection{
 }
 
+.HeroSection h1{
+    padding-top: 6px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 83px;
+    color: var(--color-deepblue);
+}
+
+.HeroSection h3{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3em;
+    color: var(--color-aqua);
+}
+
+.HeroSection p{
+    margin-top: 40px;
+    /*width: 465px;
+    height: 140px;*/
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--color-black);
+}
+
 .HeroSection button{
     border-radius: 58px;
     background-color: var(--color-pink);
@@ -36,40 +70,6 @@
 .IconHero{
     size: 30px!important;
     color: var(--color-deepblue);
-}
-
-.HeroSection h1{
-    padding-top: 6px;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 83px;
-    color: var(--color-deepblue);
-}
-
-.HeroSection h3{
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.3em;
-    color: var(--color-aqua);
-}
-
-.HeroSection p{
-    margin-top: 40px;
-    width: 465px;
-    height: 140px;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: var(--color-black);
 }
 
 .OurPartners{
