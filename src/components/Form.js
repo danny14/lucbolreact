@@ -7,24 +7,42 @@ import Button from 'react-bootstrap/Button';
 import * as Icon from 'react-bootstrap-icons';
 import Form from 'react-bootstrap/Form';
 import emailjs from '@emailjs/browser';
+import Alert from 'react-bootstrap/Alert';
 
 export default function Forms(){
     const [validated, setValidated] = useState(false);
+    const [show, setShow] = useState(false);
+    const [variant, setVariant] = useState('');
+    const [info, setInfo] = useState('');
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
+    const handleSubmit = (event) => {        
         const form = event.currentTarget;
         console.log(event.target)
         if (form.checkValidity() === false) {
             event.preventDefault();
-            event.stopPropagation();
+            setShow(true);
+            setVariant('info');
+            setInfo('Complete the form!');
+            event.stopPropagation();            
+        }else{
+            setValidated(true);
+            event.preventDefault();
+
+            emailjs.sendForm('service_urjg3zs','template_p4r0kas',event.target,'sGk-iJbRT5oh0-iZ5')
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                setShow(true);
+                setVariant('success');
+                setInfo('The email has been sent succesfully!');
+            }, function(error) {
+                console.log('FAILED...', error);
+                setShow(true);
+                setVariant('danger');
+                setInfo('The mail has NOT been sent!');
+            });
         }
 
         setValidated(true);
-
-        emailjs.sendForm('service_urjg3zs','template_p4r0kas',event.target,'sGk-iJbRT5oh0-iZ5')
-        .then(response => console.log(response))
-        .catch(error => console.log(error))
     };
 
     return (
@@ -43,6 +61,7 @@ export default function Forms(){
                     </Col>
                     <Col sm={5}>
                         <Form className={styles.FormStructure} noValidate validated={validated} onSubmit={handleSubmit}>
+                            <Alert show={show} variant={variant} dismissible onClick={() => setShow(false)}>{info}</Alert>
                             <Form.Group className="mb-3" controlId="formName">
                                 <Form.Label>Full Name</Form.Label>
                                 <Form.Control name='form_name' required type="text" placeholder="Full Name" feedback="Full Name is a required field." />
@@ -64,10 +83,10 @@ export default function Forms(){
                             <Form.Group className="mb-3" controlId="formTerms">
                                 <Row >
                                     <Col>
-                                        <Form.Check type="checkbox" required label="Accept terms & conditions" feedback="You must agree before submitting." />
+                                        <Form.Check type="checkbox" required label="Accept terms & conditions" feedback="You must agree before submitting." feedbackType='invalid'/>
                                     </Col>
                                     <Col>
-                                        <Button variant="primary" type="submit">Send <Icon.ArrowRight className={styles.IconForm}/></Button>
+                                        <Button variant="primary" type="submit" className={styles.ButtonForm}>Send <Icon.ArrowRight className={styles.IconForm}/></Button>
                                     </Col>
                                 </Row>                                 
                             </Form.Group>                            

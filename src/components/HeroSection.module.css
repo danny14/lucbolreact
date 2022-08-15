@@ -18,6 +18,14 @@
     padding: 17px 17px 17px 27px !important; 
 }
 
+.HeroSection button:hover{
+    background-color: var(--color-deepblue);
+}
+
+.HeroSection button:hover > .IconHero {
+    color: var(--color-white);
+}
+
 .ButtonClass{
     width: 300px !important;
     font-style: normal;

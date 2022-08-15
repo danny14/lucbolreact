@@ -45,16 +45,25 @@
     color: var(--color-grey);
 }
 
-.FormStructure button {
-    border-radius: 58px;
-    background-color: var(--color-pink);
-    border: none;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 27px;
-    width: 200px;
-    height: 70px;
-    margin-bottom: 460px;
+
+.ButtonForm {
+    border-radius: 58px !important;
+    background-color: var(--color-pink) !important;
+    border: none !important;
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    line-height: 27px !important;
+    width: 200px !important;
+    height: 70px !important;
+    margin-bottom: 460px !important;
+}
+
+.ButtonForm:hover {
+    background-color: var(--color-deepblue);
+}
+
+.ButtonForm:hover > .IconForm {
+    color: var(--color-white);
 }
 
 .IconForm{
