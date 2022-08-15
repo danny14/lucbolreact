@@ -9,10 +9,10 @@ import CIT from './../assets/image/CIT.png';
 
 export default function HeroSection(){
     return (
-        <Container id="HeroSection" className={styles.HeroSectionContainer}>
+        <Container fluid id="HeroSection" className={styles.HeroSectionContainer}>
             <Row>
                 <Col sm={6}>
-                    <div className={styles.HeroSection}>
+                    <div className={styles.HeroSection + ' m-5 p-5'}>
                         <h3>LUCBOL GLOBAL MANAGEMENT</h3>
                         <h1>Call center outsourcing</h1>
                         <p>
