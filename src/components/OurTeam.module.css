@@ -58,6 +58,7 @@
 }
 
 .OurTeamFigureContainer img {
+    border-radius: 50%;
     position: absolute;
     width: 290px !important;
     height: 290px !important;

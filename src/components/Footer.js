@@ -12,7 +12,7 @@ export default function Footer(){
         <Container className={styles.FooterContainer + ' mx-auto'}>
             <Row>
                 <Col>
-                    <img src={LucbolLogo} alt='Logo' className="d-inline-block align-top"></img>
+                    <a href='#Home'><img src={LucbolLogo} alt='Logo' className="d-inline-block align-top"></img></a>
                 </Col>
                 <Col>
                     <Row>
@@ -49,9 +49,9 @@ export default function Footer(){
                     </Row>
                     <Row>
                         <Col>
-                            <img src={FacebookLogo} alt='Facebook' className="d-inline-block align-top p-2"></img>
-                            <img src={LinkedinLogo} alt='LinkedIn' className="d-inline-block align-top p-2"></img>
-                            <img src={InstagramLogo} alt='Instagram' className="d-inline-block align-top p-2"></img>
+                            <a href="https://www.facebook.com/people/Lucbol-Global-Managment/100069916750216/" target="_blank" rel="noopener noreferrer"><img src={FacebookLogo} alt='Facebook' className="d-inline-block align-top p-2"></img></a>
+                            <a href="https://www.linkedin.com/company/lucbol-global-managment" target="_blank" rel="noopener noreferrer"><img src={LinkedinLogo} alt='LinkedIn' className="d-inline-block align-top p-2"></img></a>
+                            <a href="https://www.instagram.com/lucbol_gm/" target="_blank" rel="noopener noreferrer"><img src={InstagramLogo} alt='Instagram' className="d-inline-block align-top p-2"></img></a>
                         </Col>
                     </Row>
                 </Col>

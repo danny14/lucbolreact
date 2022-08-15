@@ -7,7 +7,7 @@ import styles from './NavBar.module.css';
 import LucbolLogo from './../assets/image/lucbol-logo.png';
 import FacebookLogo from './../assets/image/facebook-logo.png';
 import InstagramLogo from './../assets/image/instagram-logo.png';
-import TwitterLogo from './../assets/image/twitter-logo.png';
+import LinkedinLogo from './../assets/image/linkedin-logo.png';
 import * as Icon from 'react-bootstrap-icons';
 //import NavDropdown from 'react-bootstrap/NavDropdown';
 
@@ -32,9 +32,9 @@ function NavScroll() {
           </Nav>          
         </Navbar.Collapse>
         <Nav className={styles.NavBarRedes}>
-          <Nav.Link href="#action1"><img src={FacebookLogo} alt='Facebook' width="10" height="20" className="d-inline-block align-top"></img></Nav.Link>
-          <Nav.Link href="#action2"><img src={TwitterLogo} alt='Twitter' width="20" height="20" className="d-inline-block align-top"></img></Nav.Link>
-          <Nav.Link href="#action3"><img src={InstagramLogo} alt='Instagram' width="20" height="20" className="d-inline-block align-top"></img></Nav.Link>
+          <Nav.Link href="https://www.facebook.com/people/Lucbol-Global-Managment/100069916750216/" target="_blank" rel="noopener noreferrer"><img src={FacebookLogo} alt='Facebook' width="10" height="20" className="d-inline-block align-top"></img></Nav.Link>
+          <Nav.Link href="https://www.linkedin.com/company/lucbol-global-managment" target="_blank" rel="noopener noreferrer"><img src={LinkedinLogo} alt='LinkedIn' width="20" height="20" className="d-inline-block align-top"></img></Nav.Link>
+          <Nav.Link href="https://www.instagram.com/lucbol_gm/" target="_blank" rel="noopener noreferrer"><img src={InstagramLogo} alt='Instagram' width="20" height="20" className="d-inline-block align-top"></img></Nav.Link>
         </Nav>
       </Container>
     </Navbar>
