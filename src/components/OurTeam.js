@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Figure from 'react-bootstrap/Figure';
 //import LuisImage from './../assets/image/Luis-Luccani-image.jpeg';
 import LuisImage from './../assets/image/luccani-prueba-image.jpeg';
-import JaimeImage from './../assets/image/Jaime-Bolagay-image.jpeg';
+import JaimeImage from './../assets/image/Jaime-Bolagay-image.png';
 
 export default function OurTeam(){
     return (
