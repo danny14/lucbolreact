@@ -4,14 +4,8 @@
     max-width: none !important;
 }
 
-.OurTeamTitle {
-    padding-top: 10px;
-    display: flexbox;
-    align-items: center;
-}
 
 .OurTeamTitle h1 {
-    margin-top: 16px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
@@ -22,7 +16,6 @@
 }
 
 .OurTeamTitle h3 {
-    margin-top: 100px;
     text-align: center;
     font-family: 'DM Sans';
     font-style: normal;
@@ -33,11 +26,11 @@
 }
 
 .OurTeamTitle p {
-    margin-left: auto;
-    margin-right: auto;
-    width: 970px;
-    height: 96px;
-    margin-top: 30px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* width: 970px;
+    height: 96px; */
+    /* margin-top: 30px; */
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -47,40 +40,34 @@
     color: var(--color-white);
 }
 
-.OurTeamFigureContainer {
+.OurTeamCardsContainer {
     padding: 10px;
-    text-align: center;
     padding-bottom: 100px;
 }
 
-.OurTeamFigure {
-    margin-top: 120px;  
+.OurTeamCard {
+    border: none !important;
+    align-items: center;
+    margin-top: 20px;
+    background-color: transparent;  
 }
 
-.OurTeamFigureContainer img {
-    border-radius: 50%;
-    position: absolute;
-    width: 290px !important;
-    height: 290px !important;
-    margin-top: 50px;
-}
 
-.OurTeamReference {
-    position: relative;
+.OurTeamCardBody{
+    border-radius: 50px;
+    background: var(--color-pink);
+    color: var(--color-blue) !important;
+    margin-top: -2rem;
     font-family: 'DM Sans';
     font-style: normal;
-    width: 250px !important;
-    height: 70px !important;
-    background: var(--color-pink);
-    margin-top: 305px;
-    border-radius: 100px;
 }
 
-.OurTeamReference h5 {
-    padding: 5px;
-    color: var(--color-white);
+.OurTeamCardTitle {
+    text-align: center;
+    color: var(--color-white) !important;
 }
 
-.OurTeamReference p {
+.OurTeamCardText {
+    text-align: justify;
     color: var(--color-deepblue);
 }
