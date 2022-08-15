@@ -6,11 +6,13 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import * as Icon from 'react-bootstrap-icons';
 import Form from 'react-bootstrap/Form';
+import emailjs from '@emailjs/browser';
 
 export default function Forms(){
     const [validated, setValidated] = useState(false);
 
     const handleSubmit = (event) => {
+        event.preventDefault();
         const form = event.currentTarget;
         if (form.checkValidity() === false) {
             event.preventDefault();
@@ -18,6 +20,10 @@ export default function Forms(){
         }
 
         setValidated(true);
+
+        emailjs.sendForm('service_urjg3zs','template_p4r0kas',event.currentTarget,'sGk-iJbRT5oh0-iZ5')
+        .then(response => console.log(response))
+        .catch(error => console.log(error))
     };
 
     return (
