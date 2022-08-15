@@ -16,7 +16,7 @@ export default function Footer(){
                 </Col>
                 <Col>
                     <Row>
-                        <a href="#action1" className="d-inline-block align-top">Home</a>
+                        <a href="#Home" className="d-inline-block align-top">Home</a>
                     </Row>
                     <Row>
                         <a href="#AboutUs" className="d-inline-block align-top">About Us</a>
@@ -25,7 +25,10 @@ export default function Footer(){
                         <a href="#OurServices" className="d-inline-block align-top">Our Services</a>
                     </Row>
                     <Row>
-                        <a href="#OurTeam" className="d-inline-block align-top">Our Team</a>
+                        <a href="#OurTeam" className="d-inline-block align-top">Team</a>
+                    </Row>
+                    <Row>
+                        <a href="#Testimonials" className="d-inline-block align-top">Testimonials</a>
                     </Row>
                     <Row>
                         <a href="#ContactUs" className="d-inline-block align-top">Contact Us</a>

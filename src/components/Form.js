@@ -27,7 +27,12 @@ export default function Forms(){
                     <Col sm={6}>
                     <h3>CONTACT US</h3>
                     <h1>Send Us a Message</h1>
-                    <p>Phone Email</p>
+                    <Row>
+                        Phone
+                    </Row>
+                    <Row>
+                        Email
+                    </Row>
                     </Col>
                     <Col sm={5}>
                         <Form className={styles.FormStructure} noValidate validated={validated} onSubmit={handleSubmit}>

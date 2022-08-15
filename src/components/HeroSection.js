@@ -20,7 +20,7 @@ export default function HeroSection(){
                             With our outsourcing service you will manage your Contact Center in a comprehensive, simple and collaborative way.
                         </p>
 
-                        <Button className={styles.ButtonClass}>Contact US! <Icon.ArrowRight className={styles.IconHero}/></Button>
+                        <a href='#ContactUs'><Button className={styles.ButtonClass}>Contact US! <Icon.ArrowRight className={styles.IconHero}/></Button></a>
                         <div className={styles.OurPartnersContainer}>
                             <h4>OUR PARTNERS</h4>
                             <Row className={styles.OurPartners}>

@@ -9,7 +9,7 @@ import Testimonials from './Testimonials'
 
 export default function Reviews(){
     return (
-        <><Container fluid className={styles.ReviewsContainer}>
+        <><Container fluid id="Testimonials" className={styles.ReviewsContainer}>
             <div className={styles.ReviewsTitle}>
                 <h3>TESTIMONIALS</h3>
                 <h1>REVIEW FROM CLIENTS</h1>
@@ -27,7 +27,7 @@ export default function Reviews(){
                     </Col>
                     <Col>
                         <h4>Now is the time to successfully improve your brand's customer service experience, take action today to maximize on your long-term market benefits!</h4>
-                        <Button className={styles.ButtonClass}>Contact US <Icon.Telephone className={styles.ButtonRotate}/></Button>
+                        <a href='#ContactUs'><Button className={styles.ButtonClass}>Contact US <Icon.Telephone className={styles.ButtonRotate}/></Button></a>
                     </Col>      
                 </Row>
             </div>

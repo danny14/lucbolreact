@@ -13,7 +13,7 @@ import * as Icon from 'react-bootstrap-icons';
 
 function NavScroll() {
   return (
-    <Navbar expand="lg" className={styles.NavBarLucbol}>
+    <Navbar expand="lg" id="Home" className={styles.NavBarLucbol}>
       <Container fluid>
         <Navbar.Brand className={styles.NavBarBrandLogo} href="#Home"><img src={LucbolLogo} alt='Logo' className="d-inline-block align-top"></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -23,11 +23,12 @@ function NavScroll() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link className={styles.NavCenter} href="#action1">Home</Nav.Link>
-            <Nav.Link className={styles.NavCenter} href="#action2">About Us</Nav.Link>
-            <Nav.Link className={styles.NavCenter} href="#action3">Our Services</Nav.Link>
-            <Nav.Link className={styles.NavCenter} href="#action4">Team</Nav.Link>
-            <Button className={styles.ButtonClass}>Contact US <Icon.Telephone className={styles.ButtonRotate}/></Button>
+            <Nav.Link className={styles.NavCenter} href="#Home">Home</Nav.Link>
+            <Nav.Link className={styles.NavCenter} href="#AboutUs">About Us</Nav.Link>
+            <Nav.Link className={styles.NavCenter} href="#OurServices">Our Services</Nav.Link>
+            <Nav.Link className={styles.NavCenter} href="#OurTeam">Team</Nav.Link>
+            <Nav.Link className={styles.NavCenter} href="#Testimonials">Testimonials</Nav.Link>
+            <a href='#ContactUs'><Button className={styles.ButtonClass}>Contact US <Icon.Telephone className={styles.ButtonRotate}/></Button></a>
           </Nav>          
         </Navbar.Collapse>
         <Nav className={styles.NavBarRedes}>
