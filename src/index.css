@@ -46,6 +46,10 @@ code {
     monospace;
 }
 
+.navbar-nav .nav-link.active {
+  color: var(--color-deepblue) !important;
+}
+
 /* Carousel */
 .carousel-root {
   width: 64% !important;
