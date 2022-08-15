@@ -48,25 +48,16 @@
  }
 
 .ReviewsBrand{
-    margin-top: 10%;
-    width: 90%;
-    text-align: center;
     color: var(--color-white);
 }
 
 .ReviewsBrand h4{
-    padding: 5rem 0rem 0rem 0rem;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: auto;
     line-height: 47px;
     text-align: center;
-}
-
-.ReviewsBrand img {
-    left: auto;
-    right: auto;
 }
 
 .ReviewsBrand button {
@@ -78,7 +69,7 @@
     line-height: 27px;
     width: 330px;
     height: 100px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .ReviewsColumn {

@@ -19,15 +19,15 @@ export default function Reviews(){
                 <Testimonials></Testimonials>
             {/* </div> */}
         </Container>
-        <Container fluid className={styles.ReviewsBrandContainer}>
+        <Container fluid className={styles.ReviewsBrandContainer + ' px-0 my-4'}>
             <div className={styles.ReviewsBrand}>
-                <Row >
+                <Row className='justify-content-center align-items-center'>
                     <Col>
                         <img src={ImageBrand} alt='Our Services' className="d-inline-block align-middle img-fluid"></img>
                     </Col>
-                    <Col>
-                        <h4>Now is the time to successfully improve your brand's customer service experience, take action today to maximize on your long-term market benefits!</h4>
-                        <a href='#ContactUs'><Button className={styles.ButtonClass}>Contact US <Icon.Telephone className={styles.ButtonRotate}/></Button></a>
+                    <Col className='d-flex justify-content-center text-center flex-column'>
+                        <Row><h4>Now is the time to successfully improve your brand's customer service experience, take action today to maximize on your long-term market benefits!</h4></Row>
+                        <Row><a href='#ContactUs'><Button className={styles.ButtonClass}>Contact US <Icon.Telephone className={styles.ButtonRotate}/></Button></a></Row>
                     </Col>      
                 </Row>
             </div>
