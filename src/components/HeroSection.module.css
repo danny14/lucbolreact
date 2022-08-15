@@ -1,12 +1,7 @@
 .HeroSectionContainer{
-    /* margin: 90px; */
-    /* margin-left: 100px !important;   */
     background-image: url('./../assets/image/imagen-principal.png');
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.HeroSection{
 }
 
 .HeroSection h1{
@@ -33,8 +28,6 @@
 
 .HeroSection p{
     margin-top: 40px;
-    /*width: 465px;
-    height: 140px;*/
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -72,14 +65,14 @@
     color: var(--color-deepblue);
 }
 
-.OurPartners{
-    justify-content: space-between;
-}
-
 .OurPartnersContainer{
     margin-top: 70px;
 }
 
 .OurPartnersContainer img{
     margin-top: 10px;
+}
+
+.OurPartners{
+    justify-content: space-between;
 }

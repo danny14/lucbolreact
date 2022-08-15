@@ -1,7 +1,5 @@
 import Container from 'react-bootstrap/Container';
 import styles from './OurServices.module.css';
-/*import * as Icon from 'react-bootstrap-icons';
-import Button from 'react-bootstrap/Button';*/
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
@@ -16,7 +14,7 @@ export default function OurServices(){
             <div className={styles.OurServiceBrand + ' mx-auto'}>
                 <h2>THE CALL CENTER INDUSTRY IS GROWING</h2>
                 <p>Businesses are becoming increasingly aware of the need for market information and the desire to reduce customer turnover rates in a hard-hit economy. A significant trend in this industry is the growing number of clients who wish to outsource bilingual call centers in Latin America instead of developing such infrastructure in-house.</p>
-                <div className={styles.OurServicePrueba}><p>5.6% and 7% per year.</p></div>
+                <div className={styles.OurServiceBrandText}><p>5.6% and 7% per year.</p></div>
             </div>
             <div id="OurServices" className={styles.OurServicesTitle}>
                 <h3>TOP BENEFITS</h3>
@@ -26,7 +24,6 @@ export default function OurServices(){
             <div className={styles.OurServicesCardsContainer}>
                 <Row >
                     <Col>
-                        {/* <img src={MissionImage} alt='Our Services' width="10" height="20" className="d-inline-block align-top"></img> */}
                         <Card className={styles.OurServicesCard + " mx-auto"}>
                             <Card.Img variant="top" src={Loanservicing} />
                             <Card.Body className={styles.OurServicesCardBody}>
@@ -38,7 +35,6 @@ export default function OurServices(){
                         </Card>
                     </Col>
                     <Col>
-                        {/* <img src={ExperienceImage} alt='Experience' width="10" height="20" className="d-inline-block align-top"></img> */}
                         <Card className={styles.OurServicesCard + " mx-auto"}>
                             <Card.Img variant="top" src={B2CSALES} />
                             <Card.Body className={styles.OurServicesCardBody}>
@@ -50,7 +46,6 @@ export default function OurServices(){
                         </Card>
                     </Col>
                     <Col>
-                        {/* <img src={PricesImage} alt='Good Prices' width="10" height="20" className="d-inline-block align-top"></img> */}
                         <Card className={styles.OurServicesCard + " mx-auto"}>
                             <Card.Img variant="top" src={ComplianceHotline} />
                             <Card.Body className={styles.OurServicesCardBody}>
@@ -62,7 +57,6 @@ export default function OurServices(){
                         </Card>
                     </Col>
                     <Col>
-                        {/* <img src={PricesImage} alt='Good Prices' width="10" height="20" className="d-inline-block align-top"></img> */}
                         <Card className={styles.OurServicesCard + " mx-auto"}>
                             <Card.Img variant="top" src={ITDevelopment} />
                             <Card.Body className={styles.OurServicesCardBody}>

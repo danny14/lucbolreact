@@ -1,7 +1,5 @@
 import Container from 'react-bootstrap/Container';
 import styles from './AboutUs.module.css';
-/*import * as Icon from 'react-bootstrap-icons';
-import Button from 'react-bootstrap/Button';*/
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';

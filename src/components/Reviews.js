@@ -15,9 +15,7 @@ export default function Reviews(){
                 <h1>REVIEW FROM CLIENTS</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
             </div>
-            {/* <div className={styles.ReviewsFigureContainer}> */}
-                <Testimonials></Testimonials>
-            {/* </div> */}
+            <Testimonials></Testimonials>
         </Container>
         <Container fluid className={styles.ReviewsBrandContainer + ' px-0 my-4'}>
             <div className={styles.ReviewsBrand}>

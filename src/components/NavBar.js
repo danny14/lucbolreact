@@ -1,6 +1,5 @@
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-//import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import styles from './NavBar.module.css';
@@ -9,7 +8,6 @@ import FacebookLogo from './../assets/image/facebook-logo.png';
 import InstagramLogo from './../assets/image/instagram-logo.png';
 import LinkedinLogo from './../assets/image/linkedin-logo.png';
 import * as Icon from 'react-bootstrap-icons';
-//import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavScroll() {
   return (
