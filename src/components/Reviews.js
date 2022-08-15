@@ -23,7 +23,7 @@ export default function Reviews(){
             <div className={styles.ReviewsBrand}>
                 <Row >
                     <Col>
-                        <img src={ImageBrand} alt='Our Services' className="d-inline-block align-middle"></img>
+                        <img src={ImageBrand} alt='Our Services' className="d-inline-block align-middle img-fluid"></img>
                     </Col>
                     <Col>
                         <h4>Now is the time to successfully improve your brand's customer service experience, take action today to maximize on your long-term market benefits!</h4>
