@@ -16,8 +16,9 @@ export default function HeroSection(){
                         <h3>LUCBOL GLOBAL MANAGEMENT</h3>
                         <h1>Call center outsourcing</h1>
                         <p>
-                            Here in Lucbol Global Management, we help you with your call center and work with our clients to tailor a recovery program to contact and resolve any customer service problem. 
-                            With our outsourcing service you will manage your Contact Center in a comprehensive, simple and collaborative way.
+                            Lucbol Global Management BPO offers a full bilingual (English/Spanish) call center with a range of services to improve loan servicing, first party 
+                            collections, account receivable, customer service, sales, enhance customer experience and grow brand loyalty. Lucbol Call Center work for your needs 
+                            around the clock to support your business and stay competitive in today's market.
                         </p>
 
                         <a href='#ContactUs'><Button className={styles.ButtonClass}>Contact US! <Icon.ArrowRight className={styles.IconHero}/></Button></a>

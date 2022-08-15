@@ -13,7 +13,7 @@ export default function AboutUs(){
             <div className={styles.AboutUsTitle}>
                 <h3>WHY TO CHOOSE US?</h3>
                 <h1>ABOUT US</h1>
-                <p>Analytics and Planning for Call Centers, everything you need to manage your Call Center, in a single platform.</p>
+                <p>Customer experience, analytics, planning and quality control, everything you need to manage your Call Center in a single platform.</p>
             </div>
             <div className={styles.AboutUsCardsContainer}>
                 <Row >
@@ -23,8 +23,9 @@ export default function AboutUs(){
                             <Card.Body>
                                 <Card.Title className={styles.AboutUsCardTitle}>Our Mission</Card.Title>
                                 <Card.Text className={styles.AboutUsCardText}>
-                                    To provide top quality call center services to our clients with our outsourcing program. We work to help companies comunicate with their end customers.
-                                    We do B2B, B2C Sales, Customer Service, Loan Servicing and First Party Collection Services, including both inbound and outbound calls.
+                                    It is the mission of Lucbol Global Management to provide clients with top quality outsourcing call center services. We have a deep understanding 
+                                    of the US and Hispanic market helping businesses turn customer interactions into revenue opportunities. No matter the call volume, 
+                                    Lucbol Outsourcing service provides our clients with the greatest chance of communicating with their end customers. 
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -35,8 +36,9 @@ export default function AboutUs(){
                             <Card.Body>
                                 <Card.Title className={styles.AboutUsCardTitle}>Experience</Card.Title>
                                 <Card.Text className={styles.AboutUsCardText}>
-                                    Our  executives have worked with renowned USA brands such as JPMorgan Chase, TCF Bank, WFS Financial, Barnett Bank, U.S. Small Business Administration,
-                                    and Coca Cola Refreshments. We are a dedicated and well-trained team of customer support specialists, able to consistently provide excellent services.
+                                    Our executives have worked with renowned USA brands such as JPMorgan Chase, TCF Bank, WFS Financial, Barnett Bank, U.S. Small Business 
+                                    Administration and Coca Cola Refreshments. We have a dedicated and well-trained team of customer support specialists who are able to consistently 
+                                    provide excellent services delivered in a timely and cost-effective manner. 
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -47,9 +49,9 @@ export default function AboutUs(){
                             <Card.Body>
                                 <Card.Title className={styles.AboutUsCardTitle}>Good Prices</Card.Title>
                                 <Card.Text className={styles.AboutUsCardText}>
-                                    Lucbol Global Management Outsourcing offers a First Party collection service, designed to speed up your internal efforts. We contact your customers as 
-                                    representatives of your company, not as a third-party collection agency. Our First Party program result in a higher number of contacts ending in more sales 
-                                    and better user experience.
+                                    Outsourcing your brand with us, can ensure the growth and profitability of your businesses with an average of 40%-50% cost savings compared to US 
+                                    call centers. Our integrated model and proactive approach provide Inbound and Outbound services adapted to your needs at competitive cost. There's 
+                                    no need for costly hiring and training planning, our structure strategically adds associates to meet your demand.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
