@@ -11,7 +11,7 @@ import PricesImage from './../assets/image/prices-image-pink.png';
 
 export default function AboutUs(){
     return (
-        <Container fluid className={styles.AboutUsContainer}>
+        <Container fluid id ="AboutUs" className={styles.AboutUsContainer}>
             <div className={styles.AboutUsTitle}>
                 <h3>WHY TO CHOOSE US?</h3>
                 <h1>ABOUT US</h1>

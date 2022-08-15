@@ -21,7 +21,7 @@ export default function Forms(){
     };
 
     return (
-        <Container fluid className={styles.FormContainer}>
+        <Container fluid id="ContactUs" className={styles.FormContainer}>
             <div className={styles.FormTitle}>
                 <Row>
                     <Col sm={6}>

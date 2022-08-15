@@ -16,7 +16,7 @@ export default function OurServices(){
                 <h2>THE CALL CENTER INDUSTRY IS GROWING</h2>
                 <p>Businesses are becoming increasingly aware of the need for market information and the desire to reduce customer turnover rates in a hard-hit economy. A significant trend in this industry is the growing number of clients who wish to outsource bilingual call centers in Latin America instead of developing such infrastructure in-house.</p>
             </div>
-            <div className={styles.OurServicesTitle + ''}>
+            <div id="OurServices" className={styles.OurServicesTitle}>
                 <h3>TOP BENEFITS</h3>
                 <h1>OUR SERVICES</h1>
                 <p>We recruit, hire, equip, train and retain qualified staff for your business operation.</p>
@@ -54,7 +54,7 @@ export default function OurServices(){
                             <Card.Body className={styles.OurServicesCardBody}>
                                 <Card.Title className={styles.OurServicesCardTitle}>IT & Development</Card.Title>
                                 <Card.Text className={styles.OurServicesCardText}>
-                                Software Developers, Web and App designers, UX/UI, Marketing,  IT and Tech Support Specialists, Database, Cloud services and cyber security. &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                                Software Developers, Web and App designers, UX/UI, Marketing,  IT and Tech Support Specialists, Database, Cloud services and cyber security.
                                 </Card.Text>
                             </Card.Body>
                         </Card>

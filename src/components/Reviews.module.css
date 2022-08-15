@@ -59,7 +59,7 @@
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
+    font-size: auto;
     line-height: 47px;
     text-align: center;
 }
@@ -79,4 +79,8 @@
     width: 330px;
     height: 100px;
     margin-top: 50px;
+}
+
+.ReviewsColumn {
+    padding-left: none !important;
 }
