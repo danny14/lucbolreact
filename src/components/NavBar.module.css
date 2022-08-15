@@ -1,10 +1,9 @@
-.NavBarLucbol{
-    /*background-color: rgba(var(--color-rgb-aqua),0.5) !important;*/
+.NavBarLucbol {
     background-color: var(--color-aqua) !important;
     height: 103px;
 }
 
-.NavBarBrandLogo{
+.NavBarBrandLogo {
     margin-left: 147px;
 }
 
@@ -34,7 +33,6 @@
 }
 
 .NavCenter {
-    /*color: var(--color-white) !important;*/
     padding-top: 20px !important;
 }
 

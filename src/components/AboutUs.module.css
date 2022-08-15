@@ -41,14 +41,6 @@
     color: var(--color-black);
 }
 
-.AboutUsCard {
-    background-color: var(--color-aqua) !important;
-    border-radius: 50px !important;
-    width: 340px !important;
-    height: 300px !important;
-    margin-top: 20px;  
-}
-
 .AboutUsCardsContainer {
     padding: 10px;
     text-align: center;
@@ -61,6 +53,14 @@
     left: auto;
     right: auto;
     margin-top: 60px;
+}
+
+.AboutUsCard {
+    background-color: var(--color-aqua) !important;
+    border-radius: 50px !important;
+    width: 340px !important;
+    height: 300px !important;
+    margin-top: 20px;  
 }
 
 .AboutUsCardTitle {

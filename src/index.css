@@ -36,14 +36,8 @@ body {
   margin: 0;
   font-family: 'DM Sans' !important;
   font-weight: 400 !important;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-image: url('assets/image/imagen-principal.png');
-  background-repeat: no-repeat;
-  background-size: contain; */
 }
 
 code {
