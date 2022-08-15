@@ -14,6 +14,7 @@ export default function Forms(){
     const handleSubmit = (event) => {
         event.preventDefault();
         const form = event.currentTarget;
+        console.log(event.target)
         if (form.checkValidity() === false) {
             event.preventDefault();
             event.stopPropagation();
@@ -21,7 +22,7 @@ export default function Forms(){
 
         setValidated(true);
 
-        emailjs.sendForm('service_urjg3zs','template_p4r0kas',event.currentTarget,'sGk-iJbRT5oh0-iZ5')
+        emailjs.sendForm('service_urjg3zs','template_p4r0kas',event.target,'sGk-iJbRT5oh0-iZ5')
         .then(response => console.log(response))
         .catch(error => console.log(error))
     };
@@ -44,21 +45,21 @@ export default function Forms(){
                         <Form className={styles.FormStructure} noValidate validated={validated} onSubmit={handleSubmit}>
                             <Form.Group className="mb-3" controlId="formName">
                                 <Form.Label>Full Name</Form.Label>
-                                <Form.Control required type="text" placeholder="Full Name" feedback="Full Name is a required field." />
+                                <Form.Control name='form_name' required type="text" placeholder="Full Name" feedback="Full Name is a required field." />
                                 <Form.Control.Feedback type="invalid">
                                     Full Name is a required field.
                                 </Form.Control.Feedback>
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formEmail">
                                 <Form.Label>Email</Form.Label>
-                                <Form.Control required type="email" placeholder="name@example.com"/>
+                                <Form.Control name='form_email' required type="email" placeholder="name@example.com"/>
                                 <Form.Control.Feedback type="invalid">
                                     Please choose a valid email.
                                 </Form.Control.Feedback>
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formMessage">
                                 <Form.Label>Message</Form.Label>
-                                <Form.Control as="textarea" rows={2} placeholder="(Optional)"/>
+                                <Form.Control name='form_message' as="textarea" rows={2} placeholder="(Optional)"/>
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formTerms">
                                 <Row >
