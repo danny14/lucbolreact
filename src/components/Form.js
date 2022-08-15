@@ -17,6 +17,7 @@ export default function Forms(){
 
     const handleSubmit = (event) => {        
         const form = event.currentTarget;
+        console.log(event.target)
         if (form.checkValidity() === false) {
             event.preventDefault();
             setShow(true);
@@ -63,21 +64,21 @@ export default function Forms(){
                             <Alert show={show} variant={variant} dismissible onClick={() => setShow(false)}>{info}</Alert>
                             <Form.Group className="mb-3" controlId="formName">
                                 <Form.Label>Full Name</Form.Label>
-                                <Form.Control required type="text" placeholder="Full Name" feedback="Full Name is a required field." />
+                                <Form.Control name='form_name' required type="text" placeholder="Full Name" feedback="Full Name is a required field." />
                                 <Form.Control.Feedback type="invalid">
                                     Full Name is a required field.
                                 </Form.Control.Feedback>
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formEmail">
                                 <Form.Label>Email</Form.Label>
-                                <Form.Control required type="email" placeholder="name@example.com"/>
+                                <Form.Control name='form_email' required type="email" placeholder="name@example.com"/>
                                 <Form.Control.Feedback type="invalid">
                                     Please choose a valid email.
                                 </Form.Control.Feedback>
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formMessage">
                                 <Form.Label>Message</Form.Label>
-                                <Form.Control as="textarea" rows={2} placeholder="(Optional)"/>
+                                <Form.Control name='form_message' as="textarea" rows={2} placeholder="(Optional)"/>
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formTerms">
                                 <Row >

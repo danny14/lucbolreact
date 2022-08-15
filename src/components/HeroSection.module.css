@@ -1,6 +1,12 @@
 .HeroSectionContainer{
-    margin: 90px;
-    margin-left: 100px !important;  
+    /* margin: 90px; */
+    /* margin-left: 100px !important;   */
+    background-image: url('./../assets/image/imagen-principal.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.HeroSection{
 }
 
 .HeroSection button{
