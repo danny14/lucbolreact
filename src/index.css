@@ -6,6 +6,8 @@
   --color-bluesky: #D3E9F6;
   --color-gray: #CECDCD;
   --color-white: #FFFFFF;
+  --color-darkgray: #747474;
+
 
   --color-deepblue: #051983;
   --color-aqua: #6BCFC8;
@@ -23,6 +25,7 @@
   --color-rgb-aqua: 107, 207, 200;
   --color-rgb-pink: 231, 64, 102;
   --color-rgb-silver: 233, 233, 233;
+  --color-rgb-darkgray: 116, 116, 116;
 }
 
 body {

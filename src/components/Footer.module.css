@@ -1,4 +1,15 @@
-.FooterContainer{
-    margin: 40px;   
+.FooterContainer {
+    margin: 40px;
+    color: var(--color-darkgray);
 }
+
+.FooterContainer a {
+    color: var(--color-darkgray);
+    text-decoration: none;
+}
+
+.FooterContainer a:hover {
+    color:var(--color-pink);
+}
+
 

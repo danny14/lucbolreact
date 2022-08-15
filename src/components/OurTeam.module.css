@@ -6,6 +6,8 @@
 
 .OurTeamTitle {
     padding-top: 10px;
+    display: flexbox;
+    align-items: center;
 }
 
 .OurTeamTitle h1 {
@@ -31,13 +33,17 @@
 }
 
 .OurTeamTitle p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 970px;
+    height: 96px;
     margin-top: 30px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    text-align: center;
+    text-align: center !important;
     color: var(--color-white);
 }
 

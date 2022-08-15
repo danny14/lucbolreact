@@ -4,11 +4,12 @@ import * as Icon from 'react-bootstrap-icons';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-// import BackgroundImage from './../assets/image/imagen-principal.png';
+import Nubetel from './../assets/image/nubetel.png';
+import CIT from './../assets/image/CIT.png';
 
 export default function HeroSection(){
     return (
-        <Container fluid className={styles.HeroSectionContainer}>
+        <Container id="HeroSection" className={styles.HeroSectionContainer}>
             <Row>
                 <Col sm={6}>
                     <div className={styles.HeroSection}>
@@ -23,9 +24,9 @@ export default function HeroSection(){
                         <div className={styles.OurPartnersContainer}>
                             <h4>OUR PARTNERS</h4>
                             <Row className={styles.OurPartners}>
-                                <Col>Imagen</Col>
-                                <Col>Imagen</Col>
-                                <Col>Imagen</Col>
+                                <Col><img src={Nubetel} alt='Facebook' width="150" height="100" className="d-inline-block align-top"></img></Col>
+                                <Col><img src={CIT} alt='Facebook' width="250" height="100" className="d-inline-block align-top"></img></Col>
+                                {/*<Col>Imagen</Col>*/}
                             </Row>
                         </div>
                     </div>
