@@ -49,6 +49,10 @@ code {
   color: var(--color-deepblue) !important;
 }
 
+.navbar-collapse {
+  background-color: rgba(var(--color-rgb-aqua),0.5);
+}
+
 /* Carousel */
 .carousel-root {
   width: 64% !important;
