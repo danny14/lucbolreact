@@ -52,3 +52,18 @@
 .NavBarRedes{
     margin-right: 57px;
 }
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+    .NavBarBrandLogo {
+        margin-left: 1rem !important;
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width: 778px) and (max-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1240px) {
+
+}
