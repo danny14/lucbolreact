@@ -29,7 +29,7 @@ export default function OurServices(){
                             <Card.Body className={styles.OurServicesCardBody}>
                                 <Card.Title className={styles.OurServicesCardTitle}>CSR, Loan Servicing, First Party Collections</Card.Title>
                                 <Card.Text className={styles.OurServicesCardText}>
-                                Support and Loan Servicing Specialists. First party collection service designed to speed up your internal A/R efforts and credit policy
+                                Bilingual Customer Service, Loan Servicing Specialist and First party collection service designed to streamline your internal A/R efforts and credit policy.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -40,7 +40,7 @@ export default function OurServices(){
                             <Card.Body className={styles.OurServicesCardBody}>
                                 <Card.Title className={styles.OurServicesCardTitle}>B2C & B2B Sales</Card.Title>
                                 <Card.Text className={styles.OurServicesCardText}>
-                                Outbound/Inbound bilingual sales agents and technical support. B2B bilingual sales team to  connect into your existing operation and help you grow yor pipeline sales.
+                                Outbound/Inbound bilingual sales reps and technical support. B2B bilingual sales team to plug into your existing operation and help you grow your sales pipeline.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -51,7 +51,7 @@ export default function OurServices(){
                             <Card.Body className={styles.OurServicesCardBody}>
                                 <Card.Title className={styles.OurServicesCardTitle}>Compliance Hotline</Card.Title>
                                 <Card.Text className={styles.OurServicesCardText}>
-                                Text for Compliance Hotline.
+                                Monitor your business in a safe and anonymous way to make sure your employees feel heard when they give feedback. Reduce your organizational risk and track employees' issues.
                                 </Card.Text>
                             </Card.Body>
                         </Card>

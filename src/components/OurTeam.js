@@ -12,9 +12,10 @@ export default function OurTeam(){
             <Row className={styles.OurTeamTitle + ' justify-content-center align-items-center text-center pt-5'} >
                 <h3 className=''>MEET US</h3>
                 <h1 className='mt-2'>OUR TEAM</h1>
-                <p className='w-75 mt-2'>We are located in the state of Florida. We have more than 45+ years of combined experience with the Call Center industry. We have created a highly group of customer
-                   relations, full of specialists with the qualifications and experience necessary to suceed in the Call Center industry. The company has its main offices in Tampa, 
-                   Florida and Medellin, Colombia.
+                <p className='w-75 mt-2'>
+                    We are registered in the state of Florida with a total of 45+ years of combined experience in the Call Center industry. We have created a highly group of customer 
+                    relations specialists with all the qualifications and experience necessary to exceed in the Call Center industry. The company has its main offices in Tampa, 
+                    Florida and Medellin, Colombia. 
                 </p>
             </Row>
             <Row className={styles.OurTeamCardsContainer + ' p-5 text-center'}>
