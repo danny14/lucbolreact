@@ -11,29 +11,29 @@ import * as Icon from 'react-bootstrap-icons';
 
 function NavScroll() {
   return (
-    <Navbar expand="lg" id="Home" className={styles.NavBarLucbol}>
+    <Navbar id="Home" expand="lg" className={styles.NavBarLucbol}>
       <Container fluid>
         <Navbar.Brand className={styles.NavBarBrandLogo} href="#Home"><img src={LucbolLogo} alt='Logo' className="d-inline-block align-top"></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="mx-auto my-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
+            className="me-auto my-2 my-lg-0 mx-auto text-center"
+            style={{ maxHeight: '330px' }}
             navbarScroll
           >
             <Nav.Link className={styles.NavCenter} href="#Home">Home</Nav.Link>
             <Nav.Link className={styles.NavCenter} href="#AboutUs">About Us</Nav.Link>
             <Nav.Link className={styles.NavCenter} href="#OurServices">Our Services</Nav.Link>
             <Nav.Link className={styles.NavCenter} href="#OurTeam">Team</Nav.Link>
-            <Nav.Link className={styles.NavCenter} href="#Testimonials">Testimonials</Nav.Link>
-            <a href='#ContactUs'><Button className={styles.ButtonClass}>Contact US <Icon.Telephone className={styles.ButtonRotate}/></Button></a>
-          </Nav>          
+            <Nav.Link className={styles.NavCenter + ' pb-3'} href="#Testimonials">Testimonials</Nav.Link>
+            <a href='#ContactUs'><Button className={styles.ButtonClass + ' mx-auto text-center'}>Contact US <Icon.Telephone className={styles.ButtonRotate}/></Button></a>            
+          </Nav>
+          <Nav className={styles.NavBarRedes + " d-flex justify-content-around flex-row mx-auto my-2 my-lg-0"} style={{ maxHeight: '100px' }}>
+            <Nav.Link href="https://www.facebook.com/people/Lucbol-Global-Managment/100069916750216/" target="_blank" rel="noopener noreferrer"><img src={FacebookLogo} alt='Facebook' width="10" height="20" className="d-inline-block flex-row align-top"></img></Nav.Link>
+            <Nav.Link href="https://www.linkedin.com/company/lucbol-global-managment" target="_blank" rel="noopener noreferrer"><img src={LinkedinLogo} alt='LinkedIn' width="20" height="20" className="d-inline-block flex-row align-top"></img></Nav.Link>
+            <Nav.Link href="https://www.instagram.com/lucbol_gm/" target="_blank" rel="noopener noreferrer"><img src={InstagramLogo} alt='Instagram' width="20" height="20" className="d-inline-block flex-row align-top"></img></Nav.Link>
+          </Nav>
         </Navbar.Collapse>
-        <Nav className={styles.NavBarRedes}>
-          <Nav.Link href="https://www.facebook.com/people/Lucbol-Global-Managment/100069916750216/" target="_blank" rel="noopener noreferrer"><img src={FacebookLogo} alt='Facebook' width="10" height="20" className="d-inline-block align-top"></img></Nav.Link>
-          <Nav.Link href="https://www.linkedin.com/company/lucbol-global-managment" target="_blank" rel="noopener noreferrer"><img src={LinkedinLogo} alt='LinkedIn' width="20" height="20" className="d-inline-block align-top"></img></Nav.Link>
-          <Nav.Link href="https://www.instagram.com/lucbol_gm/" target="_blank" rel="noopener noreferrer"><img src={InstagramLogo} alt='Instagram' width="20" height="20" className="d-inline-block align-top"></img></Nav.Link>
-        </Nav>
       </Container>
     </Navbar>
   );

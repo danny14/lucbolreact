@@ -18,27 +18,22 @@
     color:var(--color-deepblue);
 }
 
-.NavBarLucbol button {
-    border-radius: 58px;
-    background-color: var(--color-pink);
-    border: none;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 17px 17px 17px 27px !important; 
-}
-
-.NavBarLucbol button:hover {
-    background-color:var(--color-deepblue);
-}
-
 .NavCenter {
     padding-top: 20px !important;
 }
 
 .ButtonClass {
-    padding: 10px !important;
-    margin-left: 74px;
+    border-radius: 58px !important;
+    background-color: var(--color-pink) !important;
+    border: none !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 27px !important;
+    padding: 17px 17px 17px 27px !important; 
+}
+
+.ButtonClass:hover  {
+    background-color:var(--color-deepblue) !important;
 }
 
 .ButtonRotate {
@@ -53,7 +48,7 @@
     margin-right: 57px;
 }
 
-@media only screen and (min-width: 360px) and (max-width: 768px) {
+@media only screen and (min-width: 280px) and (max-width: 768px) {
     .NavBarBrandLogo {
         margin-left: 1rem !important;
         margin-bottom: 1rem;
