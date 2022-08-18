@@ -19,11 +19,10 @@ export default class Testimonials extends Component {
         <div>
           <img src={imageFirst} alt="Reviews"/>
           <div className="myCarousel">
-            <h3>Shirley Fultz</h3>
-            <h4>Designer</h4>
+            <h3>John Armstrong</h3>
+            <h4>Operations Manager - Kuafun Advisors</h4>
             <p>
-              It's freeing to be able to catch up on customized news and not be
-              distracted by a social media element on the same site
+              Lucbol has been an invaluable and strategy partner on the path to improve performance for our company. We have seen great results from starting off with just few agents! 
             </p>
           </div>
         </div>
@@ -31,11 +30,11 @@ export default class Testimonials extends Component {
         <div>
           <img src={imageSecond} alt="Reviews"/>
           <div className="myCarousel">
-            <h3>Daniel Keystone</h3>
-            <h4>Designer</h4>
+            <h3>Angela Richardson</h3>
+            <h4>Customer Relationships Manager - Akron Consumer Services</h4>
             <p>
-              The simple and intuitive design makes it easy for me use. I highly
-              recommend Fetch to my peers.
+              We have a fantastic experience working with Lucbol on building our core business. Their customer service reps make all the difference for our customer's satisfaction. 
+              It feels like we are all on one company, their agents are on the same page with our company values!
             </p>
           </div>
         </div>
@@ -43,11 +42,11 @@ export default class Testimonials extends Component {
         <div>
           <img src={imageThird} alt="Reviews"/>
           <div className="myCarousel">
-            <h3>Theo Sorel</h3>
-            <h4>Designer</h4>
+            <h3>Eric Martinez</h3>
+            <h4>Sales Director - Sol Solar</h4>
             <p>
-              I enjoy catching up with Fetch on my laptop, or on my phone when
-              I'm on the go!
+              Lucbol is not an outsourced company for us - they're vital for our daily operations. Their Spanish speaking representatives have been our voice for the Latino market 
+              in the US. Lucbol is the reason why our company grow over 40% year to date!
             </p>
           </div>
         </div>

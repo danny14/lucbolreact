@@ -12,12 +12,12 @@ export default function Home(){
         <>
             <NavScroll />
             <HeroSection />
-            <AboutUs />
+            {/* <AboutUs />
             <OurServices />
             <OurTeam />
             <Reviews />
             <Form />
-            <Footer />
+            <Footer /> */}
         </>
       );
 }

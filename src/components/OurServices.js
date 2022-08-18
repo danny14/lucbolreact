@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card';
 import ITDevelopment from './../assets/image/ITDevelopment.png';
 import B2CSALES from './../assets/image/B2CSALES.png';
 import Loanservicing from './../assets/image/Loanservicing.png';
-import ComplianceHotline from './../assets/image/compliance-hotline.jpg';
+import ComplianceHotline from './../assets/image/compliance-hotline.png';
 
 export default function OurServices(){
     return (
@@ -22,7 +22,7 @@ export default function OurServices(){
                 <p>We recruit, hire, equip, train and retain qualified staff for your business operation.</p>
             </div>
             <div className={styles.OurServicesCardsContainer}>
-                <Row >
+                <Row>
                     <Col>
                         <Card className={styles.OurServicesCard + " mx-auto"}>
                             <Card.Img variant="top" src={Loanservicing} />
