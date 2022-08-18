@@ -9,7 +9,8 @@ import Testimonials from './Testimonials'
 
 export default function Reviews(){
     return (
-        <><Container fluid id="Testimonials" className={styles.ReviewsContainer}>
+        <>
+        <Container fluid id="Testimonials" className={styles.ReviewsContainer}>
             <div className={styles.ReviewsTitle}>
                 <h3>TESTIMONIALS</h3>
                 <h1>REVIEW FROM CLIENTS</h1>
@@ -17,7 +18,7 @@ export default function Reviews(){
             </div>
             <Testimonials></Testimonials>
         </Container>
-        <Container fluid className={styles.ReviewsBrandContainer + ' px-0 my-4'}>
+        <Container fluid className={styles.ReviewsBrandContainer + ' my-4'}>
             <div className={styles.ReviewsBrand}>
                 <Row className='justify-content-center align-items-center'>
                     <Col>

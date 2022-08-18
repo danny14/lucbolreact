@@ -119,3 +119,43 @@
     text-align: justify;
     color: var(--color-white) !important;
 }
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+    .OurServiceBrandText {
+        margin-left: -80px;
+    }
+
+    .OurServicesCardTitle{
+        font-size: 10px;
+    }
+
+    .OurServicesCardText {
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 778px) and (max-width: 1024px) {
+    .OurServiceBrandText {
+        margin-left: -80px;
+    }
+    .OurServicesCardTitle{
+        font-size: 20px;
+    }
+    .OurServicesCardText {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1240px) {
+    .OurServiceBrandText {
+        margin-left: -100px;
+    }
+
+    .OurServicesCardTitle{
+        font-size: 10px;
+    }
+    .OurServicesCardText {
+        font-size: 10px;
+    }
+}
