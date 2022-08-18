@@ -9,7 +9,7 @@ import Footer from './../components/Footer';
 
 export default function Home(){
     return (
-        <><div>
+        <>
             <NavScroll />
             <HeroSection />
             <AboutUs />
@@ -18,8 +18,6 @@ export default function Home(){
             <Reviews />
             <Form />
             <Footer />
-        </div><div>
-                
-            </div></>
+        </>
       );
 }

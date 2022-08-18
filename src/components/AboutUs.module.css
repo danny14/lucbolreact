@@ -1,26 +1,9 @@
 .AboutUsContainer {
     background-color: var(--color-white) !important;
-    height: auto !important;
-    max-width: none !important;
-}
-
-.AboutUsTitle {
-    padding-top: 10px;
-}
-
-.AboutUsTitle h1 {
-    margin-top: 16px;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 60px;
-    line-height: 78px;
-    text-align: center;
-    color: var(--color-deepblue);
 }
 
 .AboutUsTitle h3 {
-    margin-top: 100px;
+
     text-align: center;
     font-family: 'DM Sans';
     font-style: normal;
@@ -30,8 +13,18 @@
     color: var(--color-pink);
 }
 
+.AboutUsTitle h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 78px;
+    text-align: center;
+    color: var(--color-deepblue);
+}
+
+
 .AboutUsTitle p {
-    margin-top: 30px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -42,17 +35,15 @@
 }
 
 .AboutUsCardsContainer {
-    padding: 10px;
     text-align: center;
-    padding-bottom: 100px;
 }
 
 .AboutUsCardsContainer img {
-    width: 130px;
-    height: 132px;
-    left: auto;
+    /* width: 130px;
+    height: 132px; */
+    /* left: auto;
     right: auto;
-    margin-top: 60px;
+    margin-top: 60px; */
 }
 
 .AboutUsCard {
@@ -73,7 +64,6 @@
 }
 
 .AboutUsCardText {
-    padding: 10px 10px 10px 10px;
     font-family: 'DM Sans';
     font-style: normal;
     text-align: justify;
@@ -83,4 +73,16 @@
     width: 305px !important;
     height: 222px !important;
     color: var(--color-deepblue) !important;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+
+}
+
+@media only screen and (min-width: 778px) and (max-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1240px) {
+
 }
