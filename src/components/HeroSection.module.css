@@ -98,12 +98,16 @@
     }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) { /*iPads, Tablets*/
-
+@media only screen and (min-width: 481px) and (max-width: 768px) { /*iPads, Tablets*/    
+    .HeroSection p{
+        padding-right: 100px;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) { /*Small screens, laptops*/
-
+    .HeroSection p{
+        padding-right: 225px;
+    }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1200px) { /*Desktops, large screens*/

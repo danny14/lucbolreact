@@ -47,7 +47,7 @@ export default function AboutUs(){
                             <Card.Body>
                                 <Card.Title className={styles.AboutUsCardTitle}>Good Prices</Card.Title>
                                 <Card.Text className={styles.AboutUsCardText + ' p-3'}>
-                                    Lucbol Global Management Outsourcing offers a First Party collection service, designed to speed up your internal efforts. We contact your customers as 
+                                    We offer a First Party collection service, designed to speed up your internal efforts. We contact your customers as 
                                     representatives of your company, not as a third-party collection agency. Our First Party program result in a higher number of contacts ending in more sales 
                                     and better user experience.
                                 </Card.Text>
