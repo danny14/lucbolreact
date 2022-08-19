@@ -27,7 +27,7 @@ export default function OurServices(){
                         <Card className={styles.OurServicesCard + " mx-auto"}>
                             <Card.Img variant="top" src={Loanservicing} />
                             <Card.Body className={styles.OurServicesCardBody}>
-                                <Card.Title className={styles.OurServicesCardTitle}>CSR, Loan Servicing, First Party Collections</Card.Title>
+                                <Card.Title className={styles.OurServicesCardTitle}>CSR, Loan Servicing, Collections</Card.Title>
                                 <Card.Text className={styles.OurServicesCardText}>
                                 Bilingual Customer Service, Loan Servicing Specialist and First party collection service designed to streamline your internal A/R efforts and credit policy.
                                 </Card.Text>

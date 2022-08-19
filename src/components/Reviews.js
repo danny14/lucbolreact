@@ -14,7 +14,7 @@ export default function Reviews(){
             <div className={styles.ReviewsTitle}>
                 <h3>TESTIMONIALS</h3>
                 <h1>REVIEW FROM CLIENTS</h1>
-                <p>
+                <p className='w-75 mx-auto'>
                     Our goal is to provide the best customer experience for your customers. We match your company's style with a dedicated team of agents specialized in your sector 
                     to represent your brand mission and values. You will be proud to have our team on board.
                 </p>
