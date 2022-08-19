@@ -74,43 +74,20 @@
     justify-content: space-between;
 }
 
-@media only screen and (min-width: 280px) and (max-width: 575px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) { /*Mobile devices*/
     .HeroSection h1{
-        font-family: 'DM Sans';
-        font-style: normal;
-        font-weight: 700;
         font-size: 35px;
-        line-height: 50px;
-        color: var(--color-deepblue);
     }
     
     .HeroSection h3{
-        font-family: 'DM Sans';
-        font-style: normal;
-        font-weight: 700;
         font-size: 20px;
-        line-height: 30px;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.3em;
-        color: var(--color-aqua);
     }
     
     .HeroSection p{
-        font-family: 'DM Sans';
-        font-style: normal;
-        font-weight: 400;
         font-size: 14px;
-        line-height: 28px;
-        color: var(--color-black);
     }
 
     .HeroSection button{
-        border-radius: 50px;
-        background-color: var(--color-pink);
-        border: none;
-        font-weight: 500;
-        line-height: 48px;
         width: auto !important;
     }
 
@@ -121,14 +98,14 @@
     }
 }
 
-@media only screen and (min-width: 575px) and (max-width: 778px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) { /*iPads, Tablets*/
 
 }
 
-@media only screen and (min-width: 778px) and (max-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) { /*Small screens, laptops*/
 
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1240px) {
+@media only screen and (min-width: 1025px) and (max-width: 1200px) { /*Desktops, large screens*/
 
 }
