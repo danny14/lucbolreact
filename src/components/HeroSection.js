@@ -8,6 +8,9 @@ import Nubetel from './../assets/image/nubetel.png';
 import CIT from './../assets/image/CIT.png';
 import Inc5000 from './../assets/image/Inc5000.png';
 import {FormattedMessage} from 'react-intl';
+import ROK from './../assets/image/ROK.png';
+import Carousel from 'react-bootstrap/Carousel';
+
 
 export default function HeroSection(){
     return (
@@ -27,9 +30,20 @@ export default function HeroSection(){
                         <div className={styles.OurPartnersContainer}>
                             <h4>OUR PARTNERS</h4>
                             <Row className={styles.OurPartners}>
-                                <Col><img src={Nubetel} alt='Facebook' width="150" height="100" className="d-inline-block align-top"></img></Col>
-                                <Col><img src={Inc5000} alt='Inc5000' width="150" height="90" className="d-inline-block align-top"></img></Col>
-                                <Col><img src={CIT} alt='Facebook' width="250" height="100" className="d-inline-block align-top"></img></Col>
+                                <Carousel className = 'w-25' controls={false} indicators={false} interval={100}  variant="dark">
+                                    <Carousel.Item>
+                                        <img src={Nubetel} alt='Nubetel' width="150" height="100" className="d-inline-block align-top"></img>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img src={Inc5000} alt='Inc5000' width="150" height="100" className="d-inline-block align-top"></img>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img src={ROK} alt='ROK' width="250" height="100" className="d-inline-block align-top"></img>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img src={CIT} alt='CIT' width="250" height="100" className="d-inline-block align-top"></img>
+                                    </Carousel.Item>
+                                </Carousel>
                             </Row>
                         </div>
                     </div>
