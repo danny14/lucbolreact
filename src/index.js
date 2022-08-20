@@ -5,13 +5,16 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Home from './pages/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { LangProvider } from './context/langContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <LangProvider>
   <React.StrictMode>
     <Home />
   </React.StrictMode>
+  </LangProvider>
+
 );
 
 // If you want to start measuring performance in your app, pass a function

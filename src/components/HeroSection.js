@@ -7,12 +7,13 @@ import Col from 'react-bootstrap/Col';
 import Nubetel from './../assets/image/nubetel.png';
 import CIT from './../assets/image/CIT.png';
 import Inc5000 from './../assets/image/Inc5000.png';
+import {FormattedMessage} from 'react-intl';
 
 export default function HeroSection(){
     return (
         <Container fluid id="HeroSection" className={styles.HeroSectionContainer}>
             <Row>
-                <Col sm={5}>
+                <Col sm={6}>
                     <div className={styles.HeroSection + ' m-5 p-2'}>
                         <h3 className='mt-3'>LUCBOL GLOBAL MANAGEMENT</h3>
                         <h1 className='mt-3'>Call Center Outsourcing</h1>
@@ -33,7 +34,7 @@ export default function HeroSection(){
                         </div>
                     </div>
                 </Col>
-                <Col sm={7}>
+                <Col sm={6}>
                     <div className={styles.HeroSection + ' m-5 p-2'}></div>
                 </Col>
             </Row>
