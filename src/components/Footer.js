@@ -6,6 +6,7 @@ import LucbolLogo from './../assets/image/lucbol-logo.png';
 import FacebookLogo from './../assets/image/facebook-footer.png';
 import LinkedinLogo from './../assets/image/linkedin-footer.png';
 import InstagramLogo from './../assets/image/instagram-footer.png';
+import {FormattedMessage} from 'react-intl';
 
 export default function Footer(){
     return (
@@ -16,36 +17,36 @@ export default function Footer(){
                 </Col>
                 <Col>
                     <Row>
-                        <a href="#Home" className="d-inline-block align-top">Home</a>
+                        <a href="#Home" className="d-inline-block align-top"><FormattedMessage id='footer.home' defaultMessage='Home' /></a>
                     </Row>
                     <Row>
-                        <a href="#AboutUs" className="d-inline-block align-top">About Us</a>
+                        <a href="#AboutUs" className="d-inline-block align-top"><FormattedMessage id='footer.aboutUs' defaultMessage='About Us'/></a>
                     </Row>
                     <Row>
-                        <a href="#OurServices" className="d-inline-block align-top">Our Services</a>
+                        <a href="#OurServices" className="d-inline-block align-top"><FormattedMessage id='footer.ourServices' defaultMessage='Our Services'/></a>
                     </Row>
                     <Row>
-                        <a href="#OurTeam" className="d-inline-block align-top">Team</a>
+                        <a href="#OurTeam" className="d-inline-block align-top"><FormattedMessage id='footer.ourTeam' defaultMessage='Our Team'/></a>
                     </Row>
                     <Row>
-                        <a href="#Testimonials" className="d-inline-block align-top">Testimonials</a>
+                        <a href="#Testimonials" className="d-inline-block align-top"><FormattedMessage id='footer.testimonials' defaultMessage='Testimonials' /></a>
                     </Row>
                     <Row>
-                        <a href="#ContactUs" className="d-inline-block align-top">Contact Us</a>
+                        <a href="#ContactUs" className="d-inline-block align-top"><FormattedMessage id='footer.contactUs' defaultMessage='Contact US' /></a>
                     </Row>
                 </Col>
                 <Col>
                     <Row>
-                        Email
+                        info@lucbol.com
                     </Row>
                     <Row>
-                        Phone
+                        (US) +1 954 751 6201  -  (US) +1 954 751 6202
                     </Row>
                     <Row>
-                        Address
+                        Tampa, Florida  -  Medellin, Colombia
                     </Row>
                     <Row>
-                        Follow Us
+                        <FormattedMessage id='footer.followUs' defaultMessage='Follow Us' />                        
                     </Row>
                     <Row>
                         <Col>
@@ -59,7 +60,7 @@ export default function Footer(){
         </Container>
         <Container fluid className={styles.FooterCopyright}>
             <hr />
-            <p>Copyright © 2022 Lucbol Global Managment. All rights reserved.</p>
+            <p><FormattedMessage id='footer.copyright' defaultMessage='Copyright © 2022 Lucbol Global Managment. All rights reserved.' /></p>
         </Container></>
       );
 }
