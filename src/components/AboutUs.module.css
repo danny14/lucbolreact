@@ -48,8 +48,8 @@
 .AboutUsCard {
     background-color: var(--color-aqua) !important;
     border-radius: 50px !important;
-    width: 340px !important;
-    height: 310px !important;
+    width: auto !important;
+    height: auto !important;
     margin-top: 20px;  
 }
 
@@ -69,8 +69,8 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    width: 305px !important;
-    height: 222px !important;
+    width: auto !important;
+    height: auto !important;
     color: var(--color-deepblue) !important;
 }
 

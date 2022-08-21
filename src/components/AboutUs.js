@@ -14,39 +14,39 @@ export default function AboutUs(){
             <div className={styles.AboutUsTitle + ' mt-5'}>
                 <h3 className='mt-5'><FormattedMessage id='aboutUs.title' defaultMessage="WHY TO CHOOSE US?" /></h3>
                 <h1 className='mt-3'><FormattedMessage id='aboutUs.subtitle' defaultMessage="ABOUT US" /></h1>
-                <p className='mt-3'><FormattedMessage id='aboutUs.description' defaultMessage="Analytics and Planning for Call Centers, everything you need to manage your Call Center, in a single platform." /></p>
+                <p className='mt-3'><FormattedMessage id='aboutUs.description' defaultMessage="Customer experience, analytics, planning and quality control, everything you need to manage your Call Center in a single platform." /></p>
             </div>
             <div className={styles.AboutUsCardsContainer + ' pt-2 pb-5'}>
-                <Row >
+                <Row xs={1} sm={1} md={1} lg={3}>
                     <Col>
                         <img src={MissionImage} alt='Our Mission'  className="d-inline-block align-top img-fluid img-thumbnail"></img>
-                        <Card className={styles.AboutUsCard + " mx-auto"}>
+                        <Card className={styles.AboutUsCard + " mx-auto w-75 h-75"}>
                             <Card.Body>
                                 <Card.Title className={styles.AboutUsCardTitle}><FormattedMessage id='aboutUs.mission' defaultMessage="Our Mission" /></Card.Title>
                                 <Card.Text className={styles.AboutUsCardText + ' p-3'}>
-                                    <FormattedMessage id='aboutUs.missiondescription' defaultMessage="To provide top quality call center services to our clients with our outsourcing program. We work to help companies comunicate with their end customers. We do B2B, B2C Sales, Customer Service, Loan Servicing and First Party Collection Services, including both inbound and outbound calls." />                                   
+                                    <FormattedMessage id='aboutUs.missiondescription' defaultMessage="It is the mission of Lucbol Global Management to provide clients with top quality outsourcing call center services. We have a deep understanding of the US and Hispanic market helping businesses turn customer interactions into revenue opportunities. No matter the call volume, Lucbol Outsourcing service provides our clients with the greatest chance of communicating with their end customers." />                                   
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col>
                         <img src={ExperienceImage} alt='Experience' className="d-inline-block align-top img-fluid img-thumbnail"></img>
-                        <Card className={styles.AboutUsCard + " mx-auto"}>
+                        <Card className={styles.AboutUsCard + " mx-auto w-75 h-75"}>
                             <Card.Body>
                                 <Card.Title className={styles.AboutUsCardTitle}><FormattedMessage id='aboutUs.experience' defaultMessage="Experience" /></Card.Title>
                                 <Card.Text className={styles.AboutUsCardText + ' p-3'}>
-                                    <FormattedMessage id='aboutUs.experiencedescription' defaultMessage="Our executives have worked with renowned USA brands such as JPMorgan Chase, TCF Bank, WFS Financial, Barnett Bank, U.S. Small Business Administration, and Coca Cola Refreshments. We are a dedicated and well-trained team of customer support specialists, able to consistently provide excellent services." />
+                                    <FormattedMessage id='aboutUs.experiencedescription' defaultMessage="Our executives have worked with renowned USA brands such as JPMorgan Chase, TCF Bank, WFS Financial, Barnett Bank, U.S. Small Business Administration and Coca Cola Refreshments. We have a dedicated and well-trained team of customer support specialists who are able to consistently provide excellent services delivered in a timely and cost-effective manner." />
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>  
                     <Col>
                         <img src={PricesImage} alt='Good Prices' className="d-inline-block align-top img-fluid img-thumbnail"></img>
-                        <Card className={styles.AboutUsCard + " mx-auto"}>
+                        <Card className={styles.AboutUsCard + " mx-auto w-75 h-75"}>
                             <Card.Body>
                                 <Card.Title className={styles.AboutUsCardTitle}><FormattedMessage id='aboutUs.prices' defaultMessage="Good Prices" /></Card.Title>
                                 <Card.Text className={styles.AboutUsCardText + ' p-3'}>
-                                    <FormattedMessage id='aboutUs.pricesdescription' defaultMessage="We offer a First Party collection service, designed to speed up your internal efforts. We contact your customers as representatives of your company, not as a third-party collection agency. Our First Party program result in a higher number of contacts ending in more sales and better user experience." />
+                                    <FormattedMessage id='aboutUs.pricesdescription' defaultMessage="Outsourcing your brand with us, can ensure the growth and profitability of your businesses with an average of 40%-50% cost savings compared to US call centers. Our integrated model and proactive approach provide Inbound and Outbound services adapted to your needs at competitive cost. There's no need for costly hiring and training planning, our structure strategically adds associates to meet your demand." />
                                 </Card.Text>
                             </Card.Body>
                         </Card>

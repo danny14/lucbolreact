@@ -18,7 +18,7 @@ export default function OurTeam(){
                     <FormattedMessage id='ourTeam.description' defaultMessage="We are registered in the state of Florida with a total of 45+ years of combined experience in the Call Center industry. We have created a highly group of customer relations specialists with all the qualifications and experience necessary to exceed in the Call Center industry. The company has its main offices in Tampa, Florida and Medellin, Colombia." />
                 </p>
             </Row>
-            <Row className={styles.OurTeamCardsContainer + ' p-5 text-center'}>
+            <Row xs={1} sm={1} md={2} className={styles.OurTeamCardsContainer + ' p-5 text-center'}>
                 <Col>
                     <Card className={styles.OurTeamCard + " mx-auto"}>
                         <Card.Img variant="top" src={LuisImage} className={styles.OurTeamCardImg + ' rounded-circle'}/>
