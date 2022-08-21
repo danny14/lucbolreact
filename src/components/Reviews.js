@@ -27,7 +27,7 @@ export default function Reviews(){
                     <Col>
                         <img src={ImageBrand} alt='Our Services' className="d-inline-block align-middle img-fluid"></img>
                     </Col>
-                    <Col className='d-flex justify-content-center text-center flex-column'>
+                    <Col className='d-flex justify-content-center text-center flex-column pb-2'>
                         <Row><h4><FormattedMessage id='reviews.brandDescription' defaultMessage="Now is the time to successfully improve your brand's customer service experience, take action today to maximize on your long-term market benefits!" /></h4></Row>
                         <Row><a href='#ContactUs'><Button className={styles.ButtonClass}><FormattedMessage id='reviews.brandContactUs' defaultMessage="Contact US" /> <Icon.Telephone className={styles.ButtonRotate}/></Button></a></Row>
                     </Col>      

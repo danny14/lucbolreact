@@ -23,10 +23,10 @@ export default function Footer(){
                         <a href="#AboutUs" className="d-inline-block align-top"><FormattedMessage id='footer.aboutUs' defaultMessage='About Us'/></a>
                     </Row>
                     <Row>
-                        <a href="#OurServices" className="d-inline-block align-top"><FormattedMessage id='footer.ourServices' defaultMessage='Our Services'/></a>
+                        <a href="#OurServices" className="d-inline-block align-top"><FormattedMessage id='footer.ourServices' defaultMessage='Services'/></a>
                     </Row>
                     <Row>
-                        <a href="#OurTeam" className="d-inline-block align-top"><FormattedMessage id='footer.ourTeam' defaultMessage='Our Team'/></a>
+                        <a href="#OurTeam" className="d-inline-block align-top"><FormattedMessage id='footer.ourTeam' defaultMessage='Team'/></a>
                     </Row>
                     <Row>
                         <a href="#Testimonials" className="d-inline-block align-top"><FormattedMessage id='footer.testimonials' defaultMessage='Testimonials' /></a>
@@ -51,7 +51,7 @@ export default function Footer(){
                     <Row>
                         <Col>
                             <a href="https://www.facebook.com/people/Lucbol-Global-Managment/100069916750216/" target="_blank" rel="noopener noreferrer"><img src={FacebookLogo} alt='Facebook' className="d-inline-block align-top p-2"></img></a>
-                            <a href="https://www.linkedin.com/company/lucbol-global-managment" target="_blank" rel="noopener noreferrer"><img src={LinkedinLogo} alt='LinkedIn' className="d-inline-block align-top p-2"></img></a>
+                            <a href="https://www.linkedin.com/company/lucbol-global-management-bpo/" target="_blank" rel="noopener noreferrer"><img src={LinkedinLogo} alt='LinkedIn' className="d-inline-block align-top p-2"></img></a>
                             <a href="https://www.instagram.com/lucbol_gm/" target="_blank" rel="noopener noreferrer"><img src={InstagramLogo} alt='Instagram' className="d-inline-block align-top p-2"></img></a>
                         </Col>
                     </Row>

@@ -57,22 +57,22 @@ export default function Forms(){
 
     return (
         <Container fluid id="ContactUs" className={styles.FormContainer}>
-            <div className={styles.FormTitle}>
-                <Row>
+            <div className={styles.FormTitle }>
+                <Row className='m-5'>
                     <Col sm={6}>
-                    <h3><FormattedMessage id='form.title' defaultMessage="CONTACT US" /></h3>
-                    <h1><FormattedMessage id='form.subtitle' defaultMessage="Send Us a Message" /></h1>
-                    <Row>
-                        <Col>
-                            <Row>(US) +1 954 751 6201</Row>
-                            <Row>(US) +1 954 751 6202</Row>
-                        </Col>                        
-                    </Row>
-                    <Row>
-                        info@lucbol.com
-                    </Row>
+                        <h3><FormattedMessage id='form.title' defaultMessage="CONTACT US" /></h3>
+                        <h1><FormattedMessage id='form.subtitle' defaultMessage="Send Us a Message" /></h1>
+                        <Row>
+                            <Col>
+                                <Row>(US) +1 954 751 6201</Row>
+                                <Row>(US) +1 954 751 6202</Row>
+                            </Col>                        
+                        </Row>
+                        <Row>
+                            info@lucbol.com
+                        </Row>
                     </Col>
-                    <Col sm={5}>
+                    <Col sm={6}>
                         <Form className={styles.FormStructure} noValidate validated={validated} onSubmit={handleSubmit}>
                             <Alert show={show} variant={variant} dismissible onClick={() => setShow(false)}>{info}</Alert>
                             <Form.Group className="mb-3" controlId="formName">
