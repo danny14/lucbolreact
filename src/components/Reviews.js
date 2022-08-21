@@ -23,7 +23,7 @@ export default function Reviews(){
         </Container>
         <Container fluid className={styles.ReviewsBrandContainer + ' my-4'}>
             <div className={styles.ReviewsBrand}>
-                <Row className='justify-content-center align-items-center'>
+                <Row xs={1} sm={1} md={2} className='justify-content-center align-items-center'>
                     <Col>
                         <img src={ImageBrand} alt='Our Services' className="d-inline-block align-middle img-fluid"></img>
                     </Col>
