@@ -3,8 +3,8 @@
     "navbar.es" : "SPANISH",
     "navbar.home" : "Home",
     "navbar.aboutUs" : "About Us",
-    "navbar.ourServices" : "Our Services",
-    "navbar.ourTeam" : "Our Team",
+    "navbar.ourServices" : "Services",
+    "navbar.ourTeam" : "Team",
     "navbar.testimonials" : "Testimonials",
     "navbar.contactUs" : "Contact US",
 
@@ -77,8 +77,8 @@
 
     "footer.home" : "Home",
     "footer.aboutUs" : "About Us",
-    "footer.ourServices" : "Our Services",
-    "footer.ourTeam" : "OurTeam",
+    "footer.ourServices" : "Services",
+    "footer.ourTeam" : "Team",
     "footer.testimonials" : "Testimonials",
     "footer.contactUs" : "Contact US",
     "footer.followUs" : "Follow Us",

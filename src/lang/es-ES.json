@@ -3,8 +3,8 @@
     "navbar.es" : "ESPAÑOL",
     "navbar.home" : "Inicio",
     "navbar.aboutUs" : "Sobre Nosotros",
-    "navbar.ourServices" : "Nuestros Servicios",
-    "navbar.ourTeam" : "Nuestro Equipo",
+    "navbar.ourServices" : "Servicios",
+    "navbar.ourTeam" : "Equipo",
     "navbar.testimonials" : "Testimonios",
     "navbar.contactUs" : "Contáctanos",
 
@@ -77,8 +77,8 @@
 
     "footer.home" : "Inicio",
     "footer.aboutUs" : "Sobre Nosotros",
-    "footer.ourServices" : "Nuestros Servicios",
-    "footer.ourTeam" : "Nuestro Equipo",
+    "footer.ourServices" : "Servicios",
+    "footer.ourTeam" : "Equipo",
     "footer.testimonials" : "Testimonios",
     "footer.contactUs" : "Contáctanos",
     "footer.followUs" : "Siguenos",
