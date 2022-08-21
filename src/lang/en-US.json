@@ -1,4 +1,6 @@
 {
+    "navbar.en" : "ENGLISH",
+    "navbar.es" : "SPANISH",
     "navbar.home" : "Home",
     "navbar.aboutUs" : "About Us",
     "navbar.ourServices" : "Our Services",
