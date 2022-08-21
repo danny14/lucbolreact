@@ -194,11 +194,6 @@ code {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 1024px) { /*iPads, Tablets*/
-  .col-sm-5 {
-    width: auto !important;
-  }
-}
 
 .img-thumbnail {
   border: none !important;
