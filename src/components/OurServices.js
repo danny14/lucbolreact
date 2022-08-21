@@ -50,7 +50,7 @@ export default function OurServices(){
                         <Card className={styles.OurServicesCard + " mx-auto"}>
                             <Card.Img variant="top" src={ComplianceHotline} />
                             <Card.Body className={styles.OurServicesCardBody}>
-                                <Card.Title className={styles.OurServicesCardTitle}><FormattedMessage id='ourServices.complianceHotline' defaultMessage="Compliance Hotline" /></Card.Title>
+                                <Card.Title className={styles.OurServicesCardTitle}><FormattedMessage id='ourServices.complianceHotline' defaultMessage="Hotline Compliance" /></Card.Title>
                                 <Card.Text className={styles.OurServicesCardText}>
                                     <FormattedMessage id='ourServices.complianceHotlineDescription' defaultMessage="Monitor your business in a safe and anonymous way to make sure your employees feel heard when they give feedback. Reduce your organizational risk and track employees' issues." />
                                 </Card.Text>
