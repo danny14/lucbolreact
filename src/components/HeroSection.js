@@ -9,10 +9,30 @@ import CIT from './../assets/image/CIT.png';
 import Inc5000 from './../assets/image/Inc5000.png';
 import {FormattedMessage} from 'react-intl';
 import ROK from './../assets/image/ROK.png';
-import Carousel from 'react-bootstrap/Carousel';
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 
 export default function HeroSection(){
+    const responsive = {
+        superLargeDesktop: {
+          // the naming can be any, depends on you.
+          breakpoint: { max: 4000, min: 3000 },
+          items: 3
+        },
+        desktop: {
+          breakpoint: { max: 3000, min: 1024 },
+          items: 3
+        },
+        tablet: {
+          breakpoint: { max: 1024, min: 464 },
+          items: 2
+        },
+        mobile: {
+          breakpoint: { max: 464, min: 0 },
+          items: 2
+        }
+    };
     return (
         <Container fluid id="HeroSection" className={styles.HeroSectionContainer}>
             <Row>
@@ -28,19 +48,16 @@ export default function HeroSection(){
                         <div className={styles.OurPartnersContainer}>
                             <h4><FormattedMessage id='heroSection.ourPartner' defaultMessage="OUR PARTNERS" /></h4>
                             <Row className={styles.OurPartners}>
-                                <Carousel className = 'w-25' controls={false} indicators={false} interval={100}  variant="dark">
-                                    <Carousel.Item>
-                                        <img src={Nubetel} alt='Nubetel' width="150" height="100" className="d-inline-block align-top"></img>
-                                    </Carousel.Item>
-                                    <Carousel.Item>
-                                        <img src={Inc5000} alt='Inc5000' width="150" height="100" className="d-inline-block align-top"></img>
-                                    </Carousel.Item>
-                                    <Carousel.Item>
-                                        <img src={ROK} alt='ROK' width="250" height="100" className="d-inline-block align-top"></img>
-                                    </Carousel.Item>
-                                    <Carousel.Item>
-                                        <img src={CIT} alt='CIT' width="250" height="100" className="d-inline-block align-top"></img>
-                                    </Carousel.Item>
+                                <Carousel   responsive={responsive}
+                                            /*infinite={true}
+                                            autoPlay={true}
+                                            autoPlaySpeed={1500}
+                                            customTransition="all .5"*/
+                                            removeArrowOnDeviceType={["superLargeDesktop","desktop","tablet", "mobile"]}>
+                                    <div><img src={Nubetel} alt='Nubetel' width="150" height="100" className="d-inline-block align-top"></img></div>
+                                    <div><img src={Inc5000} alt='Inc5000' width="150" height="100" className="d-inline-block align-top"></img></div>
+                                    <div><img src={ROK} alt='ROK' width="250" height="100" className="d-inline-block align-top"></img></div>
+                                    <div><img src={CIT} alt='CIT' width="250" height="100" className="d-inline-block align-top"></img></div>
                                 </Carousel>
                             </Row>
                         </div>
