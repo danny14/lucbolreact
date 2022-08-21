@@ -23,7 +23,7 @@ export default function OurServices(){
                 <p><FormattedMessage id='ourServices.description' defaultMessage="We recruit, hire, equip, train and retain qualified staff for your business operation." /></p>
             </div>
             <div className={styles.OurServicesCardsContainer}>
-                <Row xs={1} sm={2} md={2} lg={4}>
+                <Row xs={1} sm={2} md={2} lg={4} >
                     <Col>
                         <Card className={styles.OurServicesCard + " mx-auto"}>
                             <Card.Img variant="top" src={Loanservicing} />
