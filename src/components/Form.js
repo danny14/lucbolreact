@@ -38,7 +38,7 @@ export default function Forms(){
             setValidated(true);
             event.preventDefault();
 
-            emailjs.sendForm('service_urjg3zs','template_p4r0kas',event.target,'sGk-iJbRT5oh0-iZ5')
+            emailjs.sendForm('service_ccd3anb','template_qc6nqis',event.target,'PBR6SjTHIzmjl8Dgg')
             .then(function(response) {
                 console.log('SUCCESS!', response.status, response.text);
                 setShow(true);

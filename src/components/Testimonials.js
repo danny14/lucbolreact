@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import imageFirst from './../assets/image/Testimonials/1.jpeg';
-import imageSecond from './../assets/image/Testimonials/1.jpeg';
-import imageThird from './../assets/image/Testimonials/1.jpeg';
+import imageSecond from './../assets/image/Testimonials/2.jpeg';
+import imageThird from './../assets/image/Testimonials/3.jpeg';
 import {FormattedMessage} from 'react-intl';
 
 export default class Testimonials extends Component {
