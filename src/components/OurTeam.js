@@ -5,17 +5,16 @@ import Col from 'react-bootstrap/Col';
 import LuisImage from './../assets/image/luccani-prueba-image.jpeg';
 import JaimeImage from './../assets/image/Jaime-Bolagay-image.png';
 import Card from 'react-bootstrap/Card';
+import {FormattedMessage} from 'react-intl';
 
 export default function OurTeam(){
     return (
         <Container fluid id="OurTeam" className={styles.OurTeamContainer}>
             <Row className={styles.OurTeamTitle + ' justify-content-center align-items-center text-center pt-5'} >
-                <h3 className=''>MEET US</h3>
-                <h1 className='mt-2'>OUR TEAM</h1>
+                <h3 className=''><FormattedMessage id='ourTeam.title' defaultMessage="MEET US" /></h3>
+                <h1 className='mt-2'><FormattedMessage id='ourTeam.subtitle' defaultMessage="OUR TEAM" /></h1>
                 <p className='w-75 mt-2'>
-                    We are registered in the state of Florida with a total of 45+ years of combined experience in the Call Center industry. We have created a highly group of customer 
-                    relations specialists with all the qualifications and experience necessary to exceed in the Call Center industry. The company has its main offices in Tampa, 
-                    Florida and Medellin, Colombia. 
+                    <FormattedMessage id='ourTeam.description' defaultMessage="We are registered in the state of Florida with a total of 45+ years of combined experience in the Call Center industry. We have created a highly group of customer relations specialists with all the qualifications and experience necessary to exceed in the Call Center industry. The company has its main offices in Tampa, Florida and Medellin, Colombia." />
                 </p>
             </Row>
             <Row className={styles.OurTeamCardsContainer + ' p-5 text-center'}>
@@ -24,9 +23,7 @@ export default function OurTeam(){
                         <Card.Img variant="top" src={LuisImage} className='w-50 rounded-circle'/>
                         <Card.Body className={styles.OurTeamCardBody +' w-50'}>
                             <Card.Title className={styles.OurTeamCardTitle}>Mr. Luis Luccani</Card.Title>
-                            <Card.Text className={styles.OurTeamCardText + ' text-center'}>
-                            CEO of Vine
-                            </Card.Text>
+                            <Card.Text className={styles.OurTeamCardText + ' text-center'}> <FormattedMessage id='ourTeam.luisTitle' defaultMessage="CEO of Vine" /> </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -35,7 +32,7 @@ export default function OurTeam(){
                         <Card.Img variant="top" src={JaimeImage} className='w-50 rounded-circle'/>
                         <Card.Body className={styles.OurTeamCardBody +' w-50'}>
                             <Card.Title className={styles.OurTeamCardTitle}>Mr. Jaime Bolagay</Card.Title>
-                            <Card.Text className={styles.OurTeamCardText + ' text-center'}> Top Manager </Card.Text>
+                            <Card.Text className={styles.OurTeamCardText + ' text-center'}> <FormattedMessage id='ourTeam.jaimeTitle' defaultMessage="Top Manager" /> </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>   
