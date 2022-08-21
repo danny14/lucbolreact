@@ -19,16 +19,18 @@ export default function HeroSection(){
                 <Col sm={6}>
                     <div className={styles.HeroSection + ' m-5 p-2'}>
                         <h3 className='mt-3'>LUCBOL GLOBAL MANAGEMENT</h3>
-                        <h1 className='mt-3'>Call Center Outsourcing</h1>
+                        <h1 className='mt-3'><FormattedMessage id='heroSection.subtitle' defaultMessage='Call Center Outsourcing'/></h1>
                         <p className='mt-5'>
-                            Lucbol Global Management BPO offers a full bilingual (English/Spanish) call center with a range of services to improve loan servicing, first party 
-                            collections, account receivable, customer service, sales, enhance customer experience and grow brand loyalty. Lucbol Call Center work for your needs 
-                            around the clock to support your business and stay competitive in today's market.
+                        <FormattedMessage 
+                            id='heroSection.description' 
+                            defaultMessage='Lucbol Global Management BPO offers a full bilingual (English/Spanish) call center with a range of services to improve loan servicing, first party 
+                            collections, account receivable, customer service, sales, enhance customer experience and grow brand loyalty. Lucbol Call Center work for your needs around the clock to support your business and stay competitive in todays market.'
+                        />
                         </p>
 
                         <a href='#ContactUs'><Button className={styles.ButtonClass + ' p-3'}>Contact US! <Icon.ArrowRight className={styles.IconHero}/></Button></a>
                         <div className={styles.OurPartnersContainer}>
-                            <h4>OUR PARTNERS</h4>
+                            <h4><FormattedMessage id='heroSection.ourPartners' defaultMessage='OUR PARTNERS'/></h4>
                             <Row className={styles.OurPartners}>
                                 <Carousel className = 'w-25' controls={false} indicators={false} interval={100}  variant="dark">
                                     <Carousel.Item>

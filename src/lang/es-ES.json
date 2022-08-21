@@ -6,21 +6,17 @@
     "navbar.testimonials" : "Testimonios",
     "navbar.contactUs" : "Contactanos",
 
-    "heroSection.title":"",
-    "heroSection.subtitle":"",
-    "heroSection.description":"",
-    "heroSection.ourPartner":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
+    "heroSection.subtitle":"Call Center Outsourcing Subcontratación de centros de llamadas",
+    "heroSection.description":" Lucbol Global Management BPO offers a full bilingual (English/Spanish) call center with a range of services to improve loan servicing, First party collections, account receivable, customer service, sales, enhance customer experience and grow brand loyalty. Lucbol Call Center work for your needs around the clock to support your business and stay competitive in today's market.",
+    "heroSection.ourPartners":"OUR PARTNERS",
 
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":""
+    "aboutUsSection.title":"ABOUT US",
+    "aboutUsSection.subtitle":"WHY TO CHOOSE US?",
+    "aboutUsSection.description":"Analytics and Planning for Call Centers, everything you need to manage your Call Center, in a single platform.",
+    "aboutUsSection.cardFirstTitle":"Our Mission",
+    "aboutUsSection.cardFirstDescription":"To provide top quality call center services to our clients with our outsourcing program. We work to help companies comunicate with their end customers. We do B2B, B2C Sales, Customer Service, Loan Servicing and First Party Collection Services, including both inbound and outbound calls.",
+    "aboutUsSection.cardSecondTitle":"Experience",
+    "aboutUsSection.cardSecondDescription":"Our executives have worked with renowned USA brands such as JPMorgan Chase, TCF Bank, WFS Financial, Barnett Bank, U.S. Small Business Administration,    and Coca Cola Refreshments. We are a dedicated and well-trained team of customer support specialists, able to consistently provide excellent services.",
+    "aboutUsSection.cardThirdTitle":"Good Prices",
+    "aboutUsSection.cardThirdDescription":"We offer a First Party collection service, designed to speed up your internal efforts. We contact your customers as representatives of your company, not as a third-party collection agency. Our First Party program result in a higher number of contacts ending in more sales and better user experience."
 }
