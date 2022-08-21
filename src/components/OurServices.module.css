@@ -107,7 +107,7 @@
     background-color: var(--color-deepblue);
     color: var(--color-blue) !important;
     margin-top: -2rem;
-    width: 97%;
+    /* width: 97%; */
 }
 
 .OurServicesCardTitle {
@@ -169,6 +169,9 @@
         font-size: 10px;
     }
     .OurServicesCardText {
-        font-size: 10px;
+        font-size: 16px;
+    }
+    .OurServicesCardBody{
+        height: 260px !important;
     }
 }
