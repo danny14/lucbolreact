@@ -44,14 +44,14 @@ function NavScroll() {
           >
             <Nav.Link className={styles.NavCenter} href="#Home"><FormattedMessage id='navbar.home' defaultMessage='Home' /></Nav.Link>
             <Nav.Link className={styles.NavCenter} href="#AboutUs"><FormattedMessage id='navbar.aboutUs' defaultMessage='About Us'/></Nav.Link>
-            <Nav.Link className={styles.NavCenter} href="#OurServices"><FormattedMessage id='navbar.ourServices' defaultMessage='Our Services'/></Nav.Link>
-            <Nav.Link className={styles.NavCenter} href="#OurTeam"><FormattedMessage id='navbar.ourTeam' defaultMessage='Our Team'/></Nav.Link>
+            <Nav.Link className={styles.NavCenter} href="#OurServices"><FormattedMessage id='navbar.ourServices' defaultMessage='Services'/></Nav.Link>
+            <Nav.Link className={styles.NavCenter} href="#OurTeam"><FormattedMessage id='navbar.ourTeam' defaultMessage='Team'/></Nav.Link>
             <Nav.Link className={styles.NavCenter + ' pb-3'} href="#Testimonials"><FormattedMessage id='navbar.testimonials' defaultMessage='Testimonials' /></Nav.Link>
             <a href='#ContactUs'><Button className={styles.ButtonClass + ' mx-auto text-center'}><FormattedMessage id='navbar.contactUs' defaultMessage='Contact US' /> <Icon.Telephone className={styles.ButtonRotate}/></Button></a>            
           </Nav>
           <Nav className={styles.NavBarRedes + " d-flex justify-content-around flex-row mx-auto my-2 my-lg-0"} style={{ maxHeight: '100px' }}>
             <Nav.Link href="https://www.facebook.com/people/Lucbol-Global-Managment/100069916750216/" target="_blank" rel="noopener noreferrer"><img src={FacebookLogo} alt='Facebook' width="10" height="20" className="d-inline-block flex-row align-top"></img></Nav.Link>
-            <Nav.Link href="https://www.linkedin.com/company/lucbol-global-managment" target="_blank" rel="noopener noreferrer"><img src={LinkedinLogo} alt='LinkedIn' width="20" height="20" className="d-inline-block flex-row align-top"></img></Nav.Link>
+            <Nav.Link href="https://www.linkedin.com/company/lucbol-global-management-bpo/" target="_blank" rel="noopener noreferrer"><img src={LinkedinLogo} alt='LinkedIn' width="20" height="20" className="d-inline-block flex-row align-top"></img></Nav.Link>
             <Nav.Link href="https://www.instagram.com/lucbol_gm/" target="_blank" rel="noopener noreferrer"><img src={InstagramLogo} alt='Instagram' width="20" height="20" className="d-inline-block flex-row align-top"></img></Nav.Link>
           </Nav>
         </Navbar.Collapse>

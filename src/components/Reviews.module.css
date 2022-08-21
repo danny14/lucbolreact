@@ -71,6 +71,23 @@
     height: 100px;
 }
 
+.ReviewsBrand button:hover  {
+    background-color:var(--color-white) !important;
+    color: var(--color-pink) !important;
+}
+
+.ButtonRotate {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 6px;
+    transform: rotate(-90deg);
+    color: var(--color-white);
+}
+
+.ReviewsBrand button:hover > .ButtonRotate {
+    color: var(--color-pink);
+}
+
 @media only screen and (min-width: 320px) and (max-width: 480px) { /*Mobile devices*/
 
 }

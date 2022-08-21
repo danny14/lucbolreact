@@ -107,7 +107,8 @@
     background-color: var(--color-deepblue);
     color: var(--color-blue) !important;
     margin-top: -2rem;
-    /* width: 97%; */
+    width: 97%;
+    height: 180px !important;
 }
 
 .OurServicesCardTitle {
@@ -122,14 +123,15 @@
 
 @media only screen and (min-width: 320px) and (max-width: 480px) { /*Mobile devices*/
     .OurServiceBrandText {
-        margin-left: -80px;
+        margin-left: -70px;
         width: 160px !important;
         height: 160px !important;
+        text-align: center;
     }
     .OurServiceBrandText p{
         margin-top: 10px;
         width: 150px !important;
-        font-size: 20px;
+        font-size: 25px;
         line-height: 28px !important;
     }
 }
@@ -144,7 +146,11 @@
     }
 
     .OurServicesCardText {
-        font-size: 10px;
+        font-size: 14px !important;
+    }
+
+    .OurServicesCardBody{
+        height: 190px !important;
     }
 }
 
@@ -157,6 +163,10 @@
     }
     .OurServicesCardText {
         font-size: 10px;
+    }
+
+    .OurServicesCardBody{
+        height: 180px !important;
     }
 }
 
@@ -172,6 +182,6 @@
         font-size: 16px;
     }
     .OurServicesCardBody{
-        height: 260px !important;
+        height: 280px !important;
     }
 }
