@@ -121,7 +121,17 @@
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) { /*Mobile devices*/
-
+    .OurServiceBrandText {
+        margin-left: -80px;
+        width: 160px !important;
+        height: 160px !important;
+    }
+    .OurServiceBrandText p{
+        margin-top: 10px;
+        width: 150px !important;
+        font-size: 20px;
+        line-height: 28px !important;
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) { /*iPads, Tablets*/
