@@ -1,5 +1,6 @@
 {
   "name": "lucbolreact",
+  "homepage": "https://www.lucbol.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

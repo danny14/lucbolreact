@@ -4,11 +4,11 @@ import * as Icon from 'react-bootstrap-icons';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Nubetel from './../assets/image/nubetel.png';
-import CIT from './../assets/image/CIT.png';
-import Inc5000 from './../assets/image/Inc5000.png';
+import Nubetel from './../assets/image/nubetel2.png';
+import CIT from './../assets/image/CIT2.png';
+import Inc5000 from './../assets/image/Inc50002.png';
 import {FormattedMessage} from 'react-intl';
-import ROK from './../assets/image/ROK.png';
+import ROK from './../assets/image/ROK2.png';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -35,8 +35,8 @@ export default function HeroSection(){
     };
     return (
         <Container fluid id="HeroSection" className={styles.HeroSectionContainer}>
-            <Row>
-                <Col sm={6}>
+            <Row sm={1}>
+                <Col md={6}>
                     <div className={styles.HeroSection + ' m-5 p-2'}>
                         <h3 className='mt-3'><FormattedMessage id='heroSection.title' defaultMessage="LUCBOL GLOBAL MANAGEMENT" /></h3>
                         <h1 className='mt-3'><FormattedMessage id='heroSection.subtitle' defaultMessage="Call Center Outsourcing" /></h1>
@@ -49,21 +49,21 @@ export default function HeroSection(){
                             <h4><FormattedMessage id='heroSection.ourPartner' defaultMessage="OUR PARTNERS" /></h4>
                             <Row className={styles.OurPartners}>
                                 <Carousel   responsive={responsive}
-                                            /*infinite={true}
+                                            infinite={true}
                                             autoPlay={true}
                                             autoPlaySpeed={1500}
-                                            customTransition="all .5"*/
+                                            customTransition="all .5"
                                             removeArrowOnDeviceType={["superLargeDesktop","desktop","tablet", "mobile"]}>
                                     <div><img src={Nubetel} alt='Nubetel' width="150" height="100" className="d-inline-block align-top"></img></div>
                                     <div><img src={Inc5000} alt='Inc5000' width="150" height="100" className="d-inline-block align-top"></img></div>
-                                    <div><img src={ROK} alt='ROK' width="250" height="100" className="d-inline-block align-top"></img></div>
-                                    <div><img src={CIT} alt='CIT' width="250" height="100" className="d-inline-block align-top"></img></div>
+                                    <div><img src={ROK} alt='ROK' width="150" height="100" className="d-inline-block align-top"></img></div>
+                                    <div><img src={CIT} alt='CIT' width="160" height="100" className="d-inline-block align-top"></img></div>
                                 </Carousel>
                             </Row>
                         </div>
                     </div>
                 </Col>
-                <Col sm={6}>
+                <Col md={6}>
                     <div className={styles.HeroSection + ' m-5 p-2'}></div>
                 </Col>
             </Row>
