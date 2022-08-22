@@ -37,13 +37,13 @@ export default function Footer(){
                 </Col>
                 <Col>
                     <Row>
-                        info@lucbol.com
+                        Email: info@lucbol.com
                     </Row>
                     <Row>
-                        (US) +1 954 751 6201  -  (US) +1 954 751 6202
+                        Phone: (US) +1 954 751 6201  -  (US) +1 954 751 6202
                     </Row>
                     <Row>
-                        Tampa, Florida  -  Medellin, Colombia
+                        Address: Tampa, Florida  -  Medellin, Colombia
                     </Row>
                     <Row>
                         <FormattedMessage id='footer.followUs' defaultMessage='Follow Us' />                        

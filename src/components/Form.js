@@ -63,13 +63,17 @@ export default function Forms(){
                         <h3><FormattedMessage id='form.title' defaultMessage="CONTACT US" /></h3>
                         <h1><FormattedMessage id='form.subtitle' defaultMessage="Send Us a Message" /></h1>
                         <Row>
-                            <Col>
+                            <Col className="ps-4">
+                                <Row className="fw-bold">Call us at:</Row>
                                 <Row>(US) +1 954 751 6201</Row>
                                 <Row>(US) +1 954 751 6202</Row>
                             </Col>                        
                         </Row>
-                        <Row>
-                            info@lucbol.com
+                        <Row >
+                            <Col className="ps-4">
+                            <Row className="fw-bold">Email us at:</Row>
+                            <Row>info@lucbol.com</Row>
+                            </Col>
                         </Row>
                     </Col>
                     <Col sm={6}>
