@@ -26,7 +26,7 @@ export default function OurServices(){
                 <Row xs={1} sm={2} md={2} lg={4} >
                     <Col>
                         <Card className={styles.OurServicesCard + " mx-auto"}>
-                            <Card.Img variant="top" src={Loanservicing} />
+                            <Card.Img variant="top" src={Loanservicing} alt='CSR, Loan Servicing, Collections'/>
                             <Card.Body className={styles.OurServicesCardBody}>
                                 <Card.Title className={styles.OurServicesCardTitle}><FormattedMessage id='ourServices.loanservicing' defaultMessage="CSR, Loan Servicing, Collections" /></Card.Title>
                                 <Card.Text className={styles.OurServicesCardText}>
@@ -37,7 +37,7 @@ export default function OurServices(){
                     </Col>
                     <Col>
                         <Card className={styles.OurServicesCard + " mx-auto"}>
-                            <Card.Img variant="top" src={B2CSALES} />
+                            <Card.Img variant="top" src={B2CSALES} alt='B2C & B2B Sales'/>
                             <Card.Body className={styles.OurServicesCardBody}>
                                 <Card.Title className={styles.OurServicesCardTitle}><FormattedMessage id='ourServices.B2CSALES' defaultMessage="B2C & B2B Sales" /></Card.Title>
                                 <Card.Text className={styles.OurServicesCardText}>
@@ -48,7 +48,7 @@ export default function OurServices(){
                     </Col>
                     <Col>
                         <Card className={styles.OurServicesCard + " mx-auto"}>
-                            <Card.Img variant="top" src={ComplianceHotline} />
+                            <Card.Img variant="top" src={ComplianceHotline} alt='Hotline Compliance'/>
                             <Card.Body className={styles.OurServicesCardBody}>
                                 <Card.Title className={styles.OurServicesCardTitle}><FormattedMessage id='ourServices.complianceHotline' defaultMessage="Hotline Compliance" /></Card.Title>
                                 <Card.Text className={styles.OurServicesCardText}>
@@ -59,11 +59,11 @@ export default function OurServices(){
                     </Col>
                     <Col>
                         <Card className={styles.OurServicesCard + " mx-auto"}>
-                            <Card.Img variant="top" src={ITDevelopment} />
+                            <Card.Img variant="top" src={ITDevelopment} alt='IT & Development'/>
                             <Card.Body className={styles.OurServicesCardBody}>
                                 <Card.Title className={styles.OurServicesCardTitle}><FormattedMessage id='ourServices.ITDevelopment' defaultMessage="IT & Development" /></Card.Title>
                                 <Card.Text className={styles.OurServicesCardText}>
-                                    <FormattedMessage id='ourServices.ITDevelopmentDescription' defaultMessage="Software Developers, Web and App designers, UX/UI, Marketing,  IT and Tech Support Specialists, Database, Cloud services and cyber security." />                                
+                                    <FormattedMessage id='ourServices.ITDevelopmentDescription' defaultMessage="Software developers, web and application designers, UX/UI, community manager, IT specialists and technical support, databases, cloud services and cybersecurity." />                                
                                 </Card.Text>
                             </Card.Body>
                         </Card>

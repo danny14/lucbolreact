@@ -18,7 +18,7 @@ export default class Testimonials extends Component {
         interval={6100}
       >
         <div>
-          <img src={imageFirst} alt="Reviews"/>
+          <img src={imageFirst} alt="John Armstrong - Operations Manager"/>
           <div className="myCarousel">
             <h3>John Armstrong</h3>
             <h4><FormattedMessage id='testimonials.firstTitle' defaultMessage="Operations Manager - Kuafun Advisors" /></h4>
@@ -29,7 +29,7 @@ export default class Testimonials extends Component {
         </div>
 
         <div>
-          <img src={imageSecond} alt="Reviews"/>
+          <img src={imageSecond} alt="Angela Richardson - Customer Relationships Manager"/>
           <div className="myCarousel">
             <h3>Angela Richardson</h3>
             <h4><FormattedMessage id='testimonials.secondTitle' defaultMessage="Customer Relationships Manager - Akron Consumer Services" /></h4>
@@ -40,7 +40,7 @@ export default class Testimonials extends Component {
         </div>
 
         <div>
-          <img src={imageThird} alt="Reviews"/>
+          <img src={imageThird} alt="Eric Martinez - Sales Director"/>
           <div className="myCarousel">
             <h3>Eric Martinez</h3>
             <h4><FormattedMessage id='testimonials.thirdTitle' defaultMessage="Sales Director - Sol Solar" /></h4>

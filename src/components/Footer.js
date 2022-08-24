@@ -13,7 +13,7 @@ export default function Footer(){
         <><Container className={styles.FooterContainer + ' mx-auto'}>
             <Row>
                 <Col>
-                    <a href='#Home'><img src={LucbolLogo} alt='Logo' className="d-inline-block align-top"></img></a>
+                    <a href='#Home'><img src={LucbolLogo} alt='Lucbol Global Management' className="d-inline-block align-top"></img></a>
                 </Col>
                 <Col>
                     <Row>
