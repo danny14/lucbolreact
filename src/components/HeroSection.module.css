@@ -13,7 +13,7 @@
     color: var(--color-deepblue);
 }
 
-.HeroSection h3{
+.HeroSection h2{
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -79,7 +79,7 @@
         font-size: 35px;
     }
     
-    .HeroSection h3{
+    .HeroSection h2{
         font-size: 20px;
     }
     

@@ -19,7 +19,7 @@
     color: var(--color-deepblue);
 }
 
-.ReviewsTitle h3 {
+.ReviewsTitle h2 {
     margin-top: 100px;
     text-align: center;
     font-family: 'DM Sans';
@@ -51,7 +51,7 @@
     color: var(--color-white);
 }
 
-.ReviewsBrand h4 {
+.ReviewsBrand h3 {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;

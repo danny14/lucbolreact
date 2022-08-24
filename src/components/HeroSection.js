@@ -42,7 +42,7 @@ export default function HeroSection(){
             <Row sm={1}>
                 <Col md={6}>
                     <div className={styles.HeroSection + ' m-5 p-2'}>
-                        <h3 className='mt-3'><FormattedMessage id='heroSection.title' defaultMessage="LUCBOL GLOBAL MANAGEMENT" /></h3>
+                        <h2 className='mt-3'><FormattedMessage id='heroSection.title' defaultMessage="LUCBOL GLOBAL MANAGEMENT" /></h2>
                         <h1 className='mt-3'><FormattedMessage id='heroSection.subtitle' defaultMessage="Call Center Outsourcing" /></h1>
                         <p className='mt-5'>
                             <FormattedMessage id='heroSection.description' defaultMessage="Lucbol Global Management BPO offers a full bilingual (English/Spanish) call center with a range of services to improve loan servicing, first party collections, account receivable, customer service, sales, enhance customer experience and grow brand loyalty. Lucbol Call Center work for your needs around the clock to support your business and stay competitive in today's market." />
@@ -50,7 +50,7 @@ export default function HeroSection(){
 
                         <a href='#ContactUs'><Button className={styles.ButtonClass + ' p-3'}><FormattedMessage id='heroSection.contactUs' defaultMessage="Contact US!" /> <Icon.ArrowRight className={styles.IconHero}/></Button></a>
                         <div className={styles.OurPartnersContainer}>
-                            <h4><FormattedMessage id='heroSection.ourPartner' defaultMessage="OUR PARTNERS" /></h4>
+                            <h3><FormattedMessage id='heroSection.ourPartner' defaultMessage="OUR PARTNERS" /></h3>
                             <Row className={styles.OurPartners}>
                                 <Carousel   responsive={responsive}
                                             infinite={true}

@@ -19,7 +19,7 @@ export default function AboutUs(){
             <div className={styles.AboutUsCardsContainer + ' pt-2 pb-5'}>
                 <Row xs={1} sm={1} md={1} lg={3}>
                     <Col>
-                        <img src={MissionImage} alt='Our Mission'  className="d-inline-block align-top img-fluid img-thumbnail"></img>
+                        <img src={MissionImage} alt='Mission of Lucbol Global Management'  className="d-inline-block align-top img-fluid img-thumbnail"></img>
                         <Card className={styles.AboutUsCard + " mx-auto w-75 h-75"}>
                             <Card.Body>
                                 <Card.Title className={styles.AboutUsCardTitle}><FormattedMessage id='aboutUs.mission' defaultMessage="Our Mission" /></Card.Title>
@@ -30,7 +30,7 @@ export default function AboutUs(){
                         </Card>
                     </Col>
                     <Col>
-                        <img src={ExperienceImage} alt='Experience' className="d-inline-block align-top img-fluid img-thumbnail"></img>
+                        <img src={ExperienceImage} alt='Experience of Lucbol Global Management' className="d-inline-block align-top img-fluid img-thumbnail"></img>
                         <Card className={styles.AboutUsCard + " mx-auto w-75 h-75"}>
                             <Card.Body>
                                 <Card.Title className={styles.AboutUsCardTitle}><FormattedMessage id='aboutUs.experience' defaultMessage="Experience" /></Card.Title>
@@ -41,7 +41,7 @@ export default function AboutUs(){
                         </Card>
                     </Col>  
                     <Col>
-                        <img src={PricesImage} alt='Good Prices' className="d-inline-block align-top img-fluid img-thumbnail"></img>
+                        <img src={PricesImage} alt='Good Prices of Lucbol Global Management' className="d-inline-block align-top img-fluid img-thumbnail"></img>
                         <Card className={styles.AboutUsCard + " mx-auto w-75 h-75"}>
                             <Card.Body>
                                 <Card.Title className={styles.AboutUsCardTitle}><FormattedMessage id='aboutUs.prices' defaultMessage="Good Prices" /></Card.Title>
