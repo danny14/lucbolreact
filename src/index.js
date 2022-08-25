@@ -1,17 +1,32 @@
-import React from 'react';
+import React, {lazy, Suspense} from 'react';
 import ReactDOM from 'react-dom/client';
 import "@fontsource/dm-sans";
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Home from './pages/Home';
+// import Home from './pages/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { LangProvider } from './context/langContext';
+import Spinner from 'react-bootstrap/Spinner';
+import imageSpinner from './assets/image/logo-short.svg'
+
+const Home = lazy(()=> import('./pages/Home'));
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <LangProvider>
   <React.StrictMode>
-    <Home />
+    <Suspense fallback={
+      <div className='d-flex justify-content-center flex-column"'>
+        <div className="p-2">
+          <img alt="Loading" className='ImageSpinner' src={imageSpinner}></img>
+          <h3 className='textLoading'>Loading...</h3>
+        </div>
+      </div>
+      
+    }>
+      <Home />
+    </Suspense>
+
   </React.StrictMode>
   </LangProvider>
 
