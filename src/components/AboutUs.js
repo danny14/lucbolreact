@@ -30,7 +30,7 @@ export default function AboutUs(){
                         </Card>
                     </Col>
                     <Col>
-                        <img src={ExperienceImage} alt='Experience of Lucbol Global Management' className="d-inline-block align-top img-fluid img-thumbnail"></img>
+                        <img src={ExperienceImage} alt='Experience of Lucbol Global Management' className="d-inline-block align-top img-fluid img-thumbnail mt-2"></img>
                         <Card className={styles.AboutUsCard + " mx-auto"}>
                             <Card.Body>
                                 <Card.Title className={styles.AboutUsCardTitle}><FormattedMessage id='aboutUs.experience' defaultMessage="Experience" /></Card.Title>
@@ -41,7 +41,7 @@ export default function AboutUs(){
                         </Card>
                     </Col>  
                     <Col>
-                        <img src={PricesImage} alt='Good Prices of Lucbol Global Management' className="d-inline-block align-top img-fluid img-thumbnail"></img>
+                        <img src={PricesImage} alt='Good Prices of Lucbol Global Management' className="d-inline-block align-top img-fluid img-thumbnail mt-2"></img>
                         <Card className={styles.AboutUsCard + " mx-auto"}>
                             <Card.Body>
                                 <Card.Title className={styles.AboutUsCardTitle}><FormattedMessage id='aboutUs.prices' defaultMessage="Good Prices" /></Card.Title>

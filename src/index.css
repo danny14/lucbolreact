@@ -198,3 +198,16 @@ code {
 .img-thumbnail {
   border: none !important;
 }
+
+.ImageSpinner{
+  margin-top: 18rem;
+  width: 100px;
+  height: 100px;
+}
+
+.textLoading {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px !important;
+  color:var(--color-deepblue);
+}
+
