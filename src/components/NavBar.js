@@ -12,8 +12,8 @@ import LinkedinLogo from './../assets/image/linkedin-logo.webp';
 import * as Icon from 'react-bootstrap-icons';
 import {FormattedMessage} from 'react-intl'
 import {langContext} from './../context/langContext';
-import USA from './../assets/image/usa.webp';
-import CO from './../assets/image/co.webp';
+import USA from './../assets/image/usa.svg';
+import CO from './../assets/image/co.svg';
 
 function NavScroll() {  
   const language = useContext(langContext);
