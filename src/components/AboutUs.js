@@ -19,7 +19,7 @@ export default function AboutUs(){
             <div className={styles.AboutUsCardsContainer + ' pt-2 pb-5'}>
                 <Row xs={1} sm={1} md={1} lg={3}>
                     <Col>
-                        <img src={MissionImage} alt='Mission of Lucbol Global Management'  className="d-inline-block align-top img-fluid img-thumbnail"></img>
+                        <img src={MissionImage} alt='Mission of Lucbol Global Management'  className="d-inline-block align-top img-fluid img-thumbnail mt-2"></img>
                         <Card className={styles.AboutUsCard + " mx-auto"}>
                             <Card.Body>
                                 <Card.Title className={styles.AboutUsCardTitle}><FormattedMessage id='aboutUs.mission' defaultMessage="Our Mission" /></Card.Title>

@@ -108,7 +108,7 @@
     color: var(--color-blue) !important;
     margin-top: -2rem;
     width: 97%;
-    height: 230px !important;
+    height: 200px !important;
 }
 
 .OurServicesCardTitle {
@@ -148,9 +148,9 @@
         margin-left: -80px;
     }
 
-    .OurServicesCardTitle{
-        font-size: 10px;
-    }
+    /* .OurServicesCardTitle{
+        font-size: 16px;
+    } */
 
     .OurServicesCardText {
         font-size: 14px !important;
@@ -171,14 +171,14 @@
         margin-left: -80px;
     }
     .OurServicesCardTitle{
-        font-size: 20px;
+        font-size: 15px;
     }
     .OurServicesCardText {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .OurServicesCardBody{
-        height: 180px !important;
+        height: 220px !important;
     }
 }
 

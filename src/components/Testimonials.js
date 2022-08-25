@@ -23,7 +23,7 @@ export default class Testimonials extends Component {
             <h3>John Armstrong</h3>
             <h4><FormattedMessage id='testimonials.firstTitle' defaultMessage="Operations Manager - Kuafun Advisors" /></h4>
             <p>
-              <FormattedMessage id='testimonials.firstDescription' defaultMessage="Lucbol has been an invaluable and strategy partner on the path to improve performance for our company. We have seen great results from starting off with just few agents!" />     
+              <FormattedMessage id='testimonials.firstDescription' defaultMessage="Lucbol has been an invaluable and strategic partner on the path to improving performance for our company. We have seen great results when starting off with just a few agents!" />     
             </p>
           </div>
         </div>
@@ -34,7 +34,7 @@ export default class Testimonials extends Component {
             <h3>Angela Richardson</h3>
             <h4><FormattedMessage id='testimonials.secondTitle' defaultMessage="Customer Relationships Manager - Akron Consumer Services" /></h4>
             <p>
-              <FormattedMessage id='testimonials.secondDescription' defaultMessage="We have a fantastic experience working with Lucbol on building our core business. Their customer service reps make all the difference for our customer's satisfaction. It feels like we are all on one company, their agents are on the same page with our company values!" />
+              <FormattedMessage id='testimonials.secondDescription' defaultMessage="We are having a fantastic experience working with Lucbol  in building our core business. Their customer service reps make all the difference for our customer satisfaction. It feels like we are all in one company, their agents are on the same page with our company values!" />
             </p>
           </div>
         </div>
@@ -45,7 +45,7 @@ export default class Testimonials extends Component {
             <h3>Eric Martinez</h3>
             <h4><FormattedMessage id='testimonials.thirdTitle' defaultMessage="Sales Director - Sol Solar" /></h4>
             <p>
-              <FormattedMessage id='testimonials.thirdDescription' defaultMessage="Sales Director - Sol Solar" />           
+              <FormattedMessage id='testimonials.thirdDescription' defaultMessage="Lucbol is not an outsourced company for us - they're vital for our daily operations. Their Spanish-speaking representatives have been our voice for the Latino market in the US. Lucbol is the reason why our company has grown over 40% year to date!" />           
             </p>
           </div>
         </div>

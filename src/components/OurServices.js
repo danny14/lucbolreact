@@ -63,7 +63,7 @@ export default function OurServices(){
                             <Card.Body className={styles.OurServicesCardBody}>
                                 <Card.Title className={styles.OurServicesCardTitle}><FormattedMessage id='ourServices.ITDevelopment' defaultMessage="IT & Development" /></Card.Title>
                                 <Card.Text className={styles.OurServicesCardText}>
-                                    <FormattedMessage id='ourServices.ITDevelopmentDescription' defaultMessage="Software developers, web and application designers, UX/UI, community manager, IT specialists and technical support, databases, cloud services and cybersecurity." />                                
+                                    <FormattedMessage id='ourServices.ITDevelopmentDescription' defaultMessage="Software developers, web and app designers, UX/UI, community manager, IT specialists and technical support, databases, cloud services and cybersecurity." />                                
                                 </Card.Text>
                             </Card.Body>
                         </Card>
