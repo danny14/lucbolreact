@@ -4,11 +4,11 @@ import * as Icon from 'react-bootstrap-icons';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Nubetel from './../assets/image/nubetel2.png';
-import CIT from './../assets/image/CIT2.png';
-import Inc5000 from './../assets/image/Inc50002.png';
+import Nubetel from './../assets/image/nubetel.webp';
+import CIT from './../assets/image/CIT.webp';
+import Inc5000 from './../assets/image/Inc5000.webp';
+import ROK from './../assets/image/ROK.webp';
 import {FormattedMessage} from 'react-intl';
-import ROK from './../assets/image/ROK2.png';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 

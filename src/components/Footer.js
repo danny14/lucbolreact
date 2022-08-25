@@ -2,10 +2,10 @@ import Container from 'react-bootstrap/Container';
 import styles from './Footer.module.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import LucbolLogo from './../assets/image/lucbol-logo.png';
-import FacebookLogo from './../assets/image/facebook-footer.png';
-import LinkedinLogo from './../assets/image/linkedin-footer.png';
-import InstagramLogo from './../assets/image/instagram-footer.png';
+import LucbolLogo from './../assets/image/lucbol-logo.webp';
+import FacebookLogo from './../assets/image/facebook-footer.webp';
+import LinkedinLogo from './../assets/image/linkedin-footer.webp';
+import InstagramLogo from './../assets/image/instagram-footer.webp';
 import {FormattedMessage} from 'react-intl';
 
 export default function Footer(){
