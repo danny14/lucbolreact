@@ -3,10 +3,8 @@ import ReactDOM from 'react-dom/client';
 import "@fontsource/dm-sans";
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-// import Home from './pages/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { LangProvider } from './context/langContext';
-import Spinner from 'react-bootstrap/Spinner';
 import imageSpinner from './assets/image/logo-short.svg'
 
 const Home = lazy(()=> import('./pages/Home'));
