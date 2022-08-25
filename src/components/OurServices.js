@@ -3,10 +3,10 @@ import styles from './OurServices.module.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import ITDevelopment from './../assets/image/ITDevelopment.png';
-import B2CSALES from './../assets/image/B2CSALES.png';
-import Loanservicing from './../assets/image/Loanservicing.png';
-import ComplianceHotline from './../assets/image/compliance-hotline.png';
+import ITDevelopment from './../assets/image/ITDevelopment.webp';
+import B2CSALES from './../assets/image/B2CSALES.webp';
+import Loanservicing from './../assets/image/Loanservicing.webp';
+import ComplianceHotline from './../assets/image/compliance-hotline.webp';
 import {FormattedMessage} from 'react-intl';
 
 export default function OurServices(){
