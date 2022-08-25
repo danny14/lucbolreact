@@ -125,8 +125,12 @@
     .OurServiceBrand h2{
         font-size: 30px !important;
     }
+    .OurServiceBrand p{
+        font-size: 15px;
+    }
     .OurServiceBrandText {
         margin-left: -70px;
+        margin-top: -50px;
         width: 160px !important;
         height: 160px !important;
         text-align: center;
@@ -154,6 +158,11 @@
 
     .OurServicesCardBody{
         height: 190px !important;
+    }
+
+    .OurServiceBrandText {
+        margin-top: -50px;
+        text-align: center;
     }
 }
 

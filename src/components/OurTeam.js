@@ -15,7 +15,7 @@ export default function OurTeam(){
                 <h2 className=''><FormattedMessage id='ourTeam.title' defaultMessage="MEET US" /></h2>
                 <h1 className='mt-2'><FormattedMessage id='ourTeam.subtitle' defaultMessage="OUR TEAM" /></h1>
                 <p className='w-75 mt-2'>
-                    <FormattedMessage id='ourTeam.description' defaultMessage="We are registered in the state of Florida with a total of 45+ years of combined experience in the Call Center industry. We have created a highly group of customer relations specialists with all the qualifications and experience necessary to exceed in the Call Center industry. The company has its main offices in Tampa, Florida and Medellin, Colombia." />
+                    <FormattedMessage id='ourTeam.description' defaultMessage="We are registered in the state of Florida with a total of 45 + years of combined experience in the call center industry. We have created a group of highly specialized Customer Relations Specialists with all the qualifications and experience necessary to excel in the call center industry. The company has its main offices in Tampa, Florida and Medellin, Colombia." />
                 </p>
             </Row>
             <Row xs={1} sm={1} md={2} className={styles.OurTeamCardsContainer + ' p-5 text-center'}>
