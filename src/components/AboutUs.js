@@ -3,9 +3,9 @@ import styles from './AboutUs.module.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import MissionImage from './../assets/image/mission-image-pink.png';
-import ExperienceImage from './../assets/image/experience-image-pink.png';
-import PricesImage from './../assets/image/prices-image-pink.png';
+import MissionImage from './../assets/image/mission-image-pink.webp';
+import ExperienceImage from './../assets/image/experience-image-pink.webp';
+import PricesImage from './../assets/image/prices-image-pink.webp';
 import {FormattedMessage} from 'react-intl';
 
 export default function AboutUs(){

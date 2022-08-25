@@ -5,15 +5,15 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import styles from './NavBar.module.css';
-import LucbolLogo from './../assets/image/lucbol-logo.png';
-import FacebookLogo from './../assets/image/facebook-logo.png';
-import InstagramLogo from './../assets/image/instagram-logo.png';
-import LinkedinLogo from './../assets/image/linkedin-logo.png';
+import LucbolLogo from './../assets/image/lucbol-logo.webp';
+import FacebookLogo from './../assets/image/facebook-logo.webp';
+import InstagramLogo from './../assets/image/instagram-logo.webp';
+import LinkedinLogo from './../assets/image/linkedin-logo.webp';
 import * as Icon from 'react-bootstrap-icons';
 import {FormattedMessage} from 'react-intl'
 import {langContext} from './../context/langContext';
-import USA from './../assets/image/usa.svg';
-import CO from './../assets/image/co.svg';
+import USA from './../assets/image/usa.webp';
+import CO from './../assets/image/co.webp';
 
 function NavScroll() {  
   const language = useContext(langContext);

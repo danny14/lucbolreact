@@ -2,11 +2,11 @@ import Container from 'react-bootstrap/Container';
 import styles from './OurTeam.module.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import LuisImage from './../assets/image/luccani-prueba-image.jpeg';
-import JaimeImage from './../assets/image/jaime-bolagay2edit1.jpeg';
+import LuisImage from './../assets/image/luccani-image.webp';
+import JaimeImage from './../assets/image/jaime-image.webp';
 import Card from 'react-bootstrap/Card';
 import {FormattedMessage} from 'react-intl';
-import LinkedinLogo from './../assets/image/linkedin-logo.png';
+import LinkedinLogo from './../assets/image/linkedin-logo.webp';
 
 export default function OurTeam(){
     return (

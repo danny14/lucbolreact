@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import styles from './Reviews.module.css';
-import ImageBrand from './../assets/image/call-center-agent.png';
+import ImageBrand from './../assets/image/call-center-agent.webp';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
