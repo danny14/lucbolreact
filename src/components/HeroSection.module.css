@@ -5,45 +5,45 @@
 }
 
 .HeroSection h1{
-    font-family: 'DM Sans';
+    font-family: "Anton", Arial, sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 50px;
     line-height: 83px;
     color: var(--color-deepblue);
 }
 
 .HeroSection h2{
-    font-family: 'DM Sans';
+    font-family: "Anton", Arial, sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     display: flex;
     align-items: center;
     letter-spacing: 0.3em;
-    color: var(--color-aqua);
+    color: var(--color-deepblue);
 }
 
 .HeroSection p{
     font-family: 'DM Sans';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 28px;
-    color: var(--color-black);
+    color: var(--color-deepblue);
 }
 
 .HeroSection button{
     border-radius: 50px;
-    background-color: var(--color-pink);
+    background-color: var(--color-deepblue);
     border: none;
     font-weight: 500;
     line-height: 48px;
 }
 
 .HeroSection button:hover{
-    background-color: var(--color-deepblue);
+    background-color: var(--color-seablue);
 }
 
 .HeroSection button:hover > .IconHero {
@@ -59,7 +59,7 @@
 
 .IconHero{
     size: 30px!important;
-    color: var(--color-deepblue);
+    color: var(--color-white);
 }
 
 .OurPartnersContainer{

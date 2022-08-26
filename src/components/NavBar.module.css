@@ -24,7 +24,7 @@
 
 .ButtonClass {
     border-radius: 58px !important;
-    background-color: var(--color-pink) !important;
+    background-color: var(--color-deepblue) !important;
     border: none !important;
     font-weight: 500 !important;
     font-size: 18px !important;
@@ -33,7 +33,7 @@
 }
 
 .ButtonClass:hover  {
-    background-color:var(--color-deepblue) !important;
+    background-color:var(--color-seablue) !important;
 }
 
 .ButtonRotate {
@@ -46,6 +46,14 @@
 
 .NavBarRedes{
     margin-right: 57px;
+}
+
+.NavIcon {
+    color: var(--color-white);
+}
+
+.NavIcon:hover {
+    color: var(--color-deepblue);
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) { /*Mobile devices*/

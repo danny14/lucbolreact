@@ -37,7 +37,7 @@
 
 .ButtonForm {
     border-radius: 58px !important;
-    background-color: var(--color-pink) !important;
+    background-color: var(--color-deepblue) !important;
     border: none !important;
     font-weight: 500 !important;
     font-size: 24px !important;
@@ -48,7 +48,7 @@
 }
 
 .ButtonForm:hover {
-    background-color: var(--color-deepblue) !important;
+    background-color: var(--color-seablue) !important;
 }
 
 .ButtonForm:hover > .IconForm {
@@ -57,7 +57,7 @@
 
 .IconForm {
     size: 30px!important;
-    color: var(--color-deepblue);
+    color: var(--color-white);
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) { /*Mobile devices*/

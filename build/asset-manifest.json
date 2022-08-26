@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.d2495a53.css",
-    "main.js": "/static/js/main.57a7c623.js",
-    "static/css/547.cfa2c115.chunk.css": "/static/css/547.cfa2c115.chunk.css",
-    "static/js/547.94002139.chunk.js": "/static/js/547.94002139.chunk.js",
+    "main.js": "/static/js/main.6a8b91ad.js",
+    "static/css/860.301b7285.chunk.css": "/static/css/860.301b7285.chunk.css",
+    "static/js/860.35abfd6d.chunk.js": "/static/js/860.35abfd6d.chunk.js",
     "static/js/787.cabe9855.chunk.js": "/static/js/787.cabe9855.chunk.js",
     "static/js/384.a1c0d46a.chunk.js": "/static/js/384.a1c0d46a.chunk.js",
     "static/media/mapBackground.webp": "/static/media/mapBackground.ebf4bcd532340cfdac4e.webp",
@@ -13,6 +13,7 @@
     "static/media/dm-sans-latin-400-normal.woff2": "/static/media/dm-sans-latin-400-normal.71edbde4a8ed19eeef94.woff2",
     "static/media/3.webp": "/static/media/3.eb63c6c78160af39358c.webp",
     "static/media/luccani-image.webp": "/static/media/luccani-image.e02d7af649d0b5e2bc77.webp",
+    "static/media/usa.svg": "/static/media/usa.efce76d6b1f61ad3700a059e24fac6d1.svg",
     "static/media/ROK.webp": "/static/media/ROK.e2b0f03934b6b72d8db9.webp",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/call-center-agent.webp": "/static/media/call-center-agent.78c15f7b86334a546487.webp",
@@ -27,14 +28,13 @@
     "static/media/jaime-image.webp": "/static/media/jaime-image.010a1e5016bbc354a212.webp",
     "static/media/compliance-hotline.webp": "/static/media/compliance-hotline.349bcff4a0927f23d33c.webp",
     "static/media/experience-image-pink.webp": "/static/media/experience-image-pink.a300e818458b0c4f4507.webp",
-    "static/media/usa.webp": "/static/media/usa.d7e4d647b23db59588a8.webp",
     "static/media/Loanservicing.webp": "/static/media/Loanservicing.1ef50c1dc57c3763281b.webp",
     "static/media/prices-image-pink.webp": "/static/media/prices-image-pink.61e0568b14d1b1ec4fd6.webp",
     "static/media/lucbol-logo.webp": "/static/media/lucbol-logo.d71d334ae96d184dc207.webp",
     "static/media/Inc5000.webp": "/static/media/Inc5000.bc469c601cb069f1e54f.webp",
     "static/media/1.webp": "/static/media/1.158f313aac4cb26f34ca.webp",
     "static/media/2.webp": "/static/media/2.c3453418fc546991af23.webp",
-    "static/media/co.webp": "/static/media/co.c9d230f4524d7893b219.webp",
+    "static/media/co.svg": "/static/media/co.d393f4c4c805d975e7b8a54b0c954c9e.svg",
     "static/media/instagram-logo.webp": "/static/media/instagram-logo.2898a3056be29b4e8218.webp",
     "index.html": "/index.html",
     "static/media/linkedin-logo.webp": "/static/media/linkedin-logo.44542f6a673d7b5d1244.webp",
@@ -43,14 +43,14 @@
     "static/media/facebook-footer.webp": "/static/media/facebook-footer.9bed514f1641bcb6ef40.webp",
     "static/media/facebook-logo.webp": "/static/media/facebook-logo.668d5f26eb421ebd246e.webp",
     "main.d2495a53.css.map": "/static/css/main.d2495a53.css.map",
-    "main.57a7c623.js.map": "/static/js/main.57a7c623.js.map",
-    "547.cfa2c115.chunk.css.map": "/static/css/547.cfa2c115.chunk.css.map",
-    "547.94002139.chunk.js.map": "/static/js/547.94002139.chunk.js.map",
+    "main.6a8b91ad.js.map": "/static/js/main.6a8b91ad.js.map",
+    "860.301b7285.chunk.css.map": "/static/css/860.301b7285.chunk.css.map",
+    "860.35abfd6d.chunk.js.map": "/static/js/860.35abfd6d.chunk.js.map",
     "787.cabe9855.chunk.js.map": "/static/js/787.cabe9855.chunk.js.map",
     "384.a1c0d46a.chunk.js.map": "/static/js/384.a1c0d46a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2495a53.css",
-    "static/js/main.57a7c623.js"
+    "static/js/main.6a8b91ad.js"
   ]
 }

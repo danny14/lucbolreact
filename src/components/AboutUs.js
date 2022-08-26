@@ -22,7 +22,7 @@ export default function AboutUs(){
                         <img src={MissionImage} alt='Mission of Lucbol Global Management'  className="d-inline-block align-top img-fluid img-thumbnail mt-2"></img>
                         <Card className={styles.AboutUsCard + " mx-auto"}>
                             <Card.Body>
-                                <Card.Title className={styles.AboutUsCardTitle}><FormattedMessage id='aboutUs.mission' defaultMessage="Our Mission" /></Card.Title>
+                                <Card.Title className={styles.AboutUsCardTitle}><FormattedMessage id='aboutUs.mission' defaultMessage="OUR MISSION" /></Card.Title>
                                 <Card.Text className={styles.AboutUsCardText + ' p-3'}>
                                     <FormattedMessage id='aboutUs.missiondescription' defaultMessage="It is the mission of Lucbol Global Management to provide clients with top quality outsourcing call center services. We have a deep understanding of the US and Hispanic market helping businesses turn customer interactions into revenue opportunities. No matter the call volume, Lucbol Outsourcing service provides our clients with the greatest chance of communicating with their end customers." />                                   
                                 </Card.Text>
@@ -33,7 +33,7 @@ export default function AboutUs(){
                         <img src={ExperienceImage} alt='Experience of Lucbol Global Management' className="d-inline-block align-top img-fluid img-thumbnail mt-2"></img>
                         <Card className={styles.AboutUsCard + " mx-auto"}>
                             <Card.Body>
-                                <Card.Title className={styles.AboutUsCardTitle}><FormattedMessage id='aboutUs.experience' defaultMessage="Experience" /></Card.Title>
+                                <Card.Title className={styles.AboutUsCardTitle}><FormattedMessage id='aboutUs.experience' defaultMessage="EXPERIENCE" /></Card.Title>
                                 <Card.Text className={styles.AboutUsCardText + ' p-3'}>
                                     <FormattedMessage id='aboutUs.experiencedescription' defaultMessage="Our executives have worked with renowned USA brands such as JPMorgan Chase, TCF Bank, WFS Financial, Barnett Bank, U.S. Small Business Administration and Coca Cola Refreshments. We have a dedicated and well-trained team of customer support specialists who are able to consistently provide excellent services delivered in a timely and cost-effective manner." />
                                 </Card.Text>
@@ -44,7 +44,7 @@ export default function AboutUs(){
                         <img src={PricesImage} alt='Good Prices of Lucbol Global Management' className="d-inline-block align-top img-fluid img-thumbnail mt-2"></img>
                         <Card className={styles.AboutUsCard + " mx-auto"}>
                             <Card.Body>
-                                <Card.Title className={styles.AboutUsCardTitle}><FormattedMessage id='aboutUs.prices' defaultMessage="Good Prices" /></Card.Title>
+                                <Card.Title className={styles.AboutUsCardTitle}><FormattedMessage id='aboutUs.prices' defaultMessage="COST EFFECTIVENESS" /></Card.Title>
                                 <Card.Text className={styles.AboutUsCardText + ' p-3'}>
                                     <FormattedMessage id='aboutUs.pricesdescription' defaultMessage="Outsourcing your brand with us, can ensure the growth and profitability of your businesses with an average of 40%-50% cost savings compared to US call centers. Our integrated model and proactive approach provide Inbound and Outbound services adapted to your needs at competitive cost. There's no need for costly hiring and training planning, our structure strategically adds associates to meet your demand." />
                                 </Card.Text>

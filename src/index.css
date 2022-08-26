@@ -12,12 +12,13 @@
   --color-white: #FFFFFF;
   --color-darkgray: #747474;
 
-
-  --color-deepblue: #051983;
+  --color-seablue: #2B3984;
+  --color-deepblue: #0A175C;
   --color-aqua: #6BCFC8;
   --color-pink: #E74066;
   --color-silver: #E9E9E9;
 
+  --color-rgb-seablue: 43, 57, 132;
   --color-rgb-blue:35, 66, 97;
   --color-rgb-black: 8, 7, 6;
   --color-rgb-yellow: 255, 224, 132;
@@ -25,7 +26,7 @@
   --color-rgb-gray: 206, 205, 205;
   --color-rgb-white: 255, 255, 255;
 
-  --color-rgb-deepblue: 5, 25, 131;
+  --color-rgb-deepblue: 10, 23, 92;
   --color-rgb-aqua: 107, 207, 200;
   --color-rgb-pink: 231, 64, 102;
   --color-rgb-silver: 233, 233, 233;
@@ -50,11 +51,13 @@ code {
 }
 
 .navbar-collapse {
-  background-color: rgba(var(--color-rgb-aqua),0.5);
+  /* background-color: rgba(var(--color-rgb-aqua),0.5); */
+  background-color: var(--color-aqua);
 }
 
 .dropdown-menu.show {
-  background-color: rgba(var(--color-rgb-aqua),0.5);
+  /* background-color: rgba(var(--color-rgb-aqua),0.5); */
+  background-color: var(--color-aqua);
 }
 
 /* Carousel */
@@ -209,5 +212,33 @@ code {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px !important;
   color:var(--color-deepblue);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/Poppins-Bold.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./assets/fonts/Poppins-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/Poppins-Medium.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/Anton-Regular.woff") format("woff"); 
 }
 

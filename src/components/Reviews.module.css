@@ -35,10 +35,10 @@
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 28px;
     text-align: center;
-    color: var(--color-grey);
+    color: var(--color-deepblue);
 }
 
 .ReviewsBrandContainer{
@@ -62,7 +62,8 @@
 
 .ReviewsBrand button {
     border-radius: 58px;
-    background-color: var(--color-pink);
+    background-color: var(--color-white);
+    color: var(--color-deepblue);
     border: none;
     font-weight: 500;
     font-size: 31px;
@@ -73,7 +74,7 @@
 
 .ReviewsBrand button:hover  {
     background-color:var(--color-white) !important;
-    color: var(--color-pink) !important;
+    color: var(--color-seablue) !important;
 }
 
 .ButtonRotate {
@@ -81,11 +82,11 @@
     margin-right: 10px;
     margin-bottom: 6px;
     transform: rotate(-90deg);
-    color: var(--color-white);
+    color: var(--color-deepblue);
 }
 
 .ReviewsBrand button:hover > .ButtonRotate {
-    color: var(--color-pink);
+    color: var(--color-seablue);
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) { /*Mobile devices*/
