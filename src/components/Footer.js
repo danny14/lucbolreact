@@ -3,10 +3,8 @@ import styles from './Footer.module.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import LucbolLogo from './../assets/image/lucbol-logo.webp';
-import FacebookLogo from './../assets/image/facebook-footer.webp';
-import LinkedinLogo from './../assets/image/linkedin-footer.webp';
-import InstagramLogo from './../assets/image/instagram-footer.webp';
 import {FormattedMessage} from 'react-intl';
+import * as Icon from 'react-bootstrap-icons';
 
 export default function Footer(){
     return (
@@ -37,22 +35,23 @@ export default function Footer(){
                 </Col>
                 <Col>
                     <Row>
-                        Email: info@lucbol.com
+                        <div><Icon.EnvelopeFill className={styles.FooterIcon}/> info@lucbol.com</div>
                     </Row>
                     <Row>
-                        Phone: (US) +1 954 751 6201  -  (US) +1 954 751 6202
+                        <div><Icon.TelephoneFill className={styles.FooterIcon}/> (US) +1 954 751 6201  -  (US) +1 954 751 6202</div>
                     </Row>
                     <Row>
-                        Address: Tampa, Florida  -  Medellin, Colombia
+                        <div><Icon.HouseFill className={styles.FooterIcon}/> Tampa, Florida  -  Medellin, Colombia</div>
                     </Row>
                     <Row>
-                        <FormattedMessage id='footer.followUs' defaultMessage='Follow Us' />                        
+                        <div><Icon.ChatRightHeartFill className={styles.FooterIcon}/> <FormattedMessage id='footer.followUs' defaultMessage='Follow Us' /> </div>                       
                     </Row>
                     <Row>
                         <Col>
-                            <a href="https://www.facebook.com/people/Lucbol-Global-Managment/100069916750216/" target="_blank" rel="noopener noreferrer"><img src={FacebookLogo} alt='Facebook' className="d-inline-block align-top p-2"></img></a>
-                            <a href="https://www.linkedin.com/company/lucbol-global-management-bpo/" target="_blank" rel="noopener noreferrer"><img src={LinkedinLogo} alt='LinkedIn' className="d-inline-block align-top p-2"></img></a>
-                            <a href="https://www.instagram.com/lucbol_gm/" target="_blank" rel="noopener noreferrer"><img src={InstagramLogo} alt='Instagram' className="d-inline-block align-top p-2"></img></a>
+                            
+                            <a href="https://www.facebook.com/people/Lucbol-Global-Managment/100069916750216/" target="_blank" rel="noopener noreferrer"><Icon.Facebook className={styles.FooterIcon + ' d-inline-block align-center m-2'}/></a>
+                            <a href="https://www.facebook.com/people/Lucbol-Global-Managment/100069916750216/" target="_blank" rel="noopener noreferrer"><Icon.Linkedin className={styles.FooterIcon + ' d-inline-block align-center m-2'}/></a>
+                            <a href="https://www.facebook.com/people/Lucbol-Global-Managment/100069916750216/" target="_blank" rel="noopener noreferrer"><Icon.Instagram className={styles.FooterIcon + ' d-inline-block align-center m-2'}/></a>
                         </Col>
                     </Row>
                 </Col>

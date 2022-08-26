@@ -11,7 +11,7 @@
     font-size: 60px;
     line-height: 78px;
     text-align: center;
-    color: var(--color-pink);
+    color: var(--color-deepblue);
 }
 
 .OurTeamTitle h2 {
@@ -21,17 +21,17 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
-    color: var(--color-deepblue);
+    color: var(--color-pink);
 }
 
 .OurTeamTitle p {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 28px;
     text-align: center !important;
-    color: var(--color-white);
+    color: var(--color-deepblue);
 }
 
 .OurTeamCardsContainer {

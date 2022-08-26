@@ -1,14 +1,11 @@
 import React, {useContext,  useState } from 'react';
 import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
+// import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import styles from './NavBar.module.css';
 import LucbolLogo from './../assets/image/lucbol-logo.webp';
-import FacebookLogo from './../assets/image/facebook-logo.webp';
-import InstagramLogo from './../assets/image/instagram-logo.webp';
-import LinkedinLogo from './../assets/image/linkedin-logo.webp';
 import * as Icon from 'react-bootstrap-icons';
 import {FormattedMessage} from 'react-intl'
 import {langContext} from './../context/langContext';
@@ -29,7 +26,7 @@ function NavScroll() {
 
   return (
     <Navbar id="Home" expand="lg" className={styles.NavBarLucbol}>
-      <Container fluid>
+      {/* <Container fluid> */}
         <Navbar.Brand className={styles.NavBarBrandLogo} href="#Home"><img src={LucbolLogo} alt='Lucbol Global Management' className="d-inline-block align-top"></img></Navbar.Brand>
         <NavDropdown title={<img src={imgLanguage} alt='Language Flag' className="d-inline-block align-top" width="25" height="25"></img>} id="navbarScrollingDropdown">
             <NavDropdown.Item onClick={() => {language.setLanguage('en-US'); validation(true);}} variant="outline-success"><FormattedMessage id='navbar.en' defaultMessage='ENGLISH' /></NavDropdown.Item>
@@ -50,12 +47,12 @@ function NavScroll() {
             <a href='#ContactUs'><Button className={styles.ButtonClass + ' mx-auto text-center'}><FormattedMessage id='navbar.contactUs' defaultMessage='Contact US' /> <Icon.Telephone className={styles.ButtonRotate}/></Button></a>            
           </Nav>
           <Nav className={styles.NavBarRedes + " d-flex justify-content-around flex-row mx-auto my-2 my-lg-0"} style={{ maxHeight: '100px' }}>
-            <Nav.Link href="https://www.facebook.com/people/Lucbol-Global-Managment/100069916750216/" target="_blank" rel="noopener noreferrer"><img src={FacebookLogo} alt='Facebook' width="10" height="20" className="d-inline-block flex-row align-top"></img></Nav.Link>
-            <Nav.Link href="https://www.linkedin.com/company/lucbol-global-management-bpo/" target="_blank" rel="noopener noreferrer"><img src={LinkedinLogo} alt='LinkedIn' width="20" height="20" className="d-inline-block flex-row align-top"></img></Nav.Link>
-            <Nav.Link href="https://www.instagram.com/lucbol_gm/" target="_blank" rel="noopener noreferrer"><img src={InstagramLogo} alt='Instagram' width="20" height="20" className="d-inline-block flex-row align-top"></img></Nav.Link>
+          <Nav.Link href="https://www.facebook.com/people/Lucbol-Global-Managment/100069916750216/" target="_blank" rel="noopener noreferrer"><Icon.Facebook className={styles.NavIcon + ' d-inline-block flex-row align-top'}  width="25" height="25"/></Nav.Link>
+            <Nav.Link href="https://www.linkedin.com/company/lucbol-global-management-bpo/" target="_blank" rel="noopener noreferrer"><Icon.Linkedin className={styles.NavIcon + ' d-inline-block flex-row align-top'} width="25" height="25"/></Nav.Link>
+            <Nav.Link href="https://www.instagram.com/lucbol_gm/" target="_blank" rel="noopener noreferrer"><Icon.Instagram className={styles.NavIcon + ' d-inline-block flex-row align-top'} width="25" height="25"/></Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
+      {/* </Container> */}
     </Navbar>
   );
 }
