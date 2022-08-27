@@ -12,7 +12,7 @@ export default function AboutUs(){
     return (
         <Container fluid id ="AboutUs" className={styles.AboutUsContainer}>
             <div className={styles.AboutUsTitle + ' mt-5'}>
-                <h3 className='mt-5'><FormattedMessage id='aboutUs.title' defaultMessage="WHY TO CHOOSE US?" /></h3>
+                <h2 className='mt-5'><FormattedMessage id='aboutUs.title' defaultMessage="WHY TO CHOOSE US?" /></h2>
                 <h1 className='mt-3'><FormattedMessage id='aboutUs.subtitle' defaultMessage="ABOUT US" /></h1>
                 <p className='mt-3'><FormattedMessage id='aboutUs.description' defaultMessage="Customer experience, analytics, planning and quality control, everything you need to manage your Call Center in a single platform." /></p>
             </div>

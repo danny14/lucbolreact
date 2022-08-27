@@ -11,21 +11,21 @@
 
 .FormTitle h1 {
     margin-top: 16px;
-    font-family: 'DM Sans';
+    font-family: "Anton", Arial, sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 60px;
     line-height: 78px;
     text-align: left;
     color: var(--color-deepblue);
 }
 
-.FormTitle h3 {
+.FormTitle h2 {
     margin-top: 100px;
     text-align: left;
-    font-family: 'DM Sans';
+    font-family: "Anton", Arial, sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     color: var(--color-pink);

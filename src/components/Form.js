@@ -60,7 +60,7 @@ export default function Forms(){
             <div className={styles.FormTitle }>
                 <Row className='m-5'>
                     <Col sm={6}>
-                        <h3><FormattedMessage id='form.title' defaultMessage="CONTACT US" /></h3>
+                        <h2><FormattedMessage id='form.title' defaultMessage="CONTACT US" /></h2>
                         <h1><FormattedMessage id='form.subtitle' defaultMessage="Send Us a Message" /></h1>
                         <Row>
                             <Col className="ps-4">

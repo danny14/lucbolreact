@@ -18,7 +18,7 @@ export default function OurServices(){
                 <div className={styles.OurServiceBrandText}><p><FormattedMessage id='ourServices.brandMessage' defaultMessage="5.6% and 7% per year." /></p></div>
             </div>
             <div id="OurServices" className={styles.OurServicesTitle}>
-                <h3><FormattedMessage id='ourServices.title' defaultMessage="TOP BENEFITS" /></h3>
+                <h2><FormattedMessage id='ourServices.title' defaultMessage="TOP BENEFITS" /></h2>
                 <h1><FormattedMessage id='ourServices.subtitle' defaultMessage="OUR SERVICES" /></h1>
                 <p><FormattedMessage id='ourServices.description' defaultMessage="We recruit, hire, equip, train and retain qualified staff for your business operations." /></p>
             </div>
