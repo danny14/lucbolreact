@@ -2,20 +2,20 @@
     background-color: var(--color-white) !important;
 }
 
-.AboutUsTitle h3 {
+.AboutUsTitle h2 {
     text-align: center;
-    font-family: 'DM Sans';
+    font-family: "Anton", Arial, sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     color: var(--color-pink);
 }
 
 .AboutUsTitle h1 {
-    font-family: 'DM Sans';
+    font-family: "Anton", Arial, sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 60px;
     line-height: 78px;
     text-align: center;
@@ -47,9 +47,9 @@
 }
 
 .AboutUsCardTitle {
-    font-family: 'DM Sans';
+    font-family: "Anton", Arial, sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 32px !important;
     line-height: 59px;
     color: var(--color-deepblue) !important;
@@ -91,6 +91,6 @@
 @media only screen and (min-width: 1201px){ /*Desktops, large screens*/
     .AboutUsCard {
         width: 380px !important;
-        height: 385px !important;
+        height: 340px !important;
     }
 }

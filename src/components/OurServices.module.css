@@ -60,21 +60,21 @@
 
 .OurServicesTitle h1 {
     margin-top: 16px;
-    font-family: 'DM Sans';
+    font-family: "Anton", Arial, sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 60px;
     line-height: 78px;
     text-align: center;
     color: var(--color-deepblue);
 }
 
-.OurServicesTitle h3 {
+.OurServicesTitle h2 {
     margin-top: 100px;
     text-align: center;
-    font-family: 'DM Sans';
+    font-family: "Anton", Arial, sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     color: var(--color-pink);
@@ -188,12 +188,18 @@
     }
 
     .OurServicesCardTitle{
-        font-size: 10px;
+        font-size: 17px;
     }
     .OurServicesCardText {
-        font-size: 16px;
+        font-size: 15px;
     }
     .OurServicesCardBody{
         height: 280px !important;
+    }
+}
+
+@media only screen and (min-width: 1201px){ /*Desktops, large screens*/
+    .OurServicesCardBody {
+        height: 260px !important;
     }
 }
