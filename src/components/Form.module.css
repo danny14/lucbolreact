@@ -64,6 +64,10 @@
     .FormTitle h1 {
         font-size: 55px;
     }
+
+    .ButtonForm {
+        margin-bottom: 150px !important;
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) { /*iPads, Tablets*/

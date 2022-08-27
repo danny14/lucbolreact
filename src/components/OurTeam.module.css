@@ -83,16 +83,16 @@
     }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) { /*iPads, Tablets*/
+@media only screen and (min-width: 481px) and (max-width: 767px) { /*iPads, Tablets*/
     .OurTeamCardImg{
-        width: 100% !important;
+        width: none !important;
     }
     .OurTeamCardBody{
         width: auto !important;
     }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) { /*Small screens, laptops*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) { /*Small screens, laptops*/
 
 }
 
