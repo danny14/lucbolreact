@@ -3,7 +3,7 @@ import styles from './OurTeam.module.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import LuisImage from './../assets/image/luccani-image.webp';
-import JaimeImage from './../assets/image/jaime-image.webp';
+import JaimeImage from './../assets/image/jaime-image.jpeg';
 import Card from 'react-bootstrap/Card';
 import {FormattedMessage} from 'react-intl';
 import LinkedinLogo from './../assets/image/linkedin-logo.webp';
