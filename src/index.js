@@ -5,7 +5,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { LangProvider } from './context/langContext';
-import imageSpinner from './assets/image/logo-short.svg'
+import imageSpinner from './assets/image/logo-short.png'
 
 const Home = lazy(()=> import('./pages/Home'));
 
@@ -24,7 +24,6 @@ root.render(
     }>
       <Home />
     </Suspense>
-
   </React.StrictMode>
   </LangProvider>
 

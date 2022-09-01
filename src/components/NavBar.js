@@ -27,7 +27,7 @@ function NavScroll() {
   return (
     <Navbar collapseOnSelect id="Home" expand="lg" className={styles.NavBarLucbol}>
       {/* <Container fluid> */}
-        <Navbar.Brand className={styles.NavBarBrandLogo} href="#Home"><img src={LucbolLogo} alt='Lucbol Global Management' className="d-inline-block align-top" width="220" height="90"></img></Navbar.Brand>
+        <Navbar.Brand className={styles.NavBarBrandLogo} href="#Home"><img src={LucbolLogo} alt='Lucbol Global Management' className="d-inline-block align-top" width="210" height="80"></img></Navbar.Brand>
         <NavDropdown title={<img src={imgLanguage} alt='Language Flag' className="d-inline-block align-top" width="25" height="25"></img>} id="navbarScrollingDropdown">
             <NavDropdown.Item onClick={() => {language.setLanguage('en-US'); validation(true);}} variant="outline-success"><FormattedMessage id='navbar.en' defaultMessage='ENGLISH' /></NavDropdown.Item>
             <NavDropdown.Item onClick={() => {language.setLanguage('es-ES'); validation(false);}} variant="outline-success"><FormattedMessage id='navbar.es' defaultMessage='SPANISH' /></NavDropdown.Item>
