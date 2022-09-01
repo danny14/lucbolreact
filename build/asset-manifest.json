@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.cabb6884.css",
-    "main.js": "/static/js/main.bf2e87e5.js",
-    "static/css/664.a29c13b6.chunk.css": "/static/css/664.a29c13b6.chunk.css",
-    "static/js/664.382cc435.chunk.js": "/static/js/664.382cc435.chunk.js",
+    "main.css": "/static/css/main.76fcedbf.css",
+    "main.js": "/static/js/main.c3a73eb1.js",
+    "static/css/664.49a19579.chunk.css": "/static/css/664.49a19579.chunk.css",
+    "static/js/664.b3b069b7.chunk.js": "/static/js/664.b3b069b7.chunk.js",
     "static/js/787.cabe9855.chunk.js": "/static/js/787.cabe9855.chunk.js",
     "static/js/467.13b59715.chunk.js": "/static/js/467.13b59715.chunk.js",
     "static/media/jaime-image.jpeg": "/static/media/jaime-image.cca3af534ccec69ba1a0.jpeg",
@@ -41,15 +41,15 @@
     "static/media/co.svg": "/static/media/co.d393f4c4c805d975e7b8a54b0c954c9e.svg",
     "index.html": "/index.html",
     "static/media/linkedin-logo.webp": "/static/media/linkedin-logo.44542f6a673d7b5d1244.webp",
-    "main.cabb6884.css.map": "/static/css/main.cabb6884.css.map",
-    "main.bf2e87e5.js.map": "/static/js/main.bf2e87e5.js.map",
-    "664.a29c13b6.chunk.css.map": "/static/css/664.a29c13b6.chunk.css.map",
-    "664.382cc435.chunk.js.map": "/static/js/664.382cc435.chunk.js.map",
+    "main.76fcedbf.css.map": "/static/css/main.76fcedbf.css.map",
+    "main.c3a73eb1.js.map": "/static/js/main.c3a73eb1.js.map",
+    "664.49a19579.chunk.css.map": "/static/css/664.49a19579.chunk.css.map",
+    "664.b3b069b7.chunk.js.map": "/static/js/664.b3b069b7.chunk.js.map",
     "787.cabe9855.chunk.js.map": "/static/js/787.cabe9855.chunk.js.map",
     "467.13b59715.chunk.js.map": "/static/js/467.13b59715.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cabb6884.css",
-    "static/js/main.bf2e87e5.js"
+    "static/css/main.76fcedbf.css",
+    "static/js/main.c3a73eb1.js"
   ]
 }
