@@ -36,6 +36,8 @@
 }
 
 .ButtonForm {
+    font-family: "Anton", Arial, sans-serif;
+    font-weight: 400;
     border-radius: 58px !important;
     background-color: var(--color-deepblue) !important;
     border: none !important;

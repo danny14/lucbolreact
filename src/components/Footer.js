@@ -11,7 +11,7 @@ export default function Footer(){
         <><Container className={styles.FooterContainer + ' mx-auto'}>
             <Row>
                 <Col>
-                    <a href='#Home'><img src={LucbolLogo} alt='Lucbol Global Management' className="d-inline-block align-top"></img></a>
+                    <a href='#Home'><img src={LucbolLogo} alt='Lucbol Global Management' className="d-inline-block align-top" width="220" height="90"></img></a>
                 </Col>
                 <Col>
                     <Row>
@@ -47,11 +47,10 @@ export default function Footer(){
                         <div><Icon.ChatRightHeartFill className={styles.FooterIcon}/> <FormattedMessage id='footer.followUs' defaultMessage='Follow Us' /> </div>                       
                     </Row>
                     <Row>
-                        <Col>
-                            
+                        <Col>                            
                             <a href="https://www.facebook.com/people/Lucbol-Global-Managment/100069916750216/" target="_blank" rel="noopener noreferrer"><Icon.Facebook className={styles.FooterIcon + ' d-inline-block align-center m-2'}/></a>
-                            <a href="https://www.facebook.com/people/Lucbol-Global-Managment/100069916750216/" target="_blank" rel="noopener noreferrer"><Icon.Linkedin className={styles.FooterIcon + ' d-inline-block align-center m-2'}/></a>
-                            <a href="https://www.facebook.com/people/Lucbol-Global-Managment/100069916750216/" target="_blank" rel="noopener noreferrer"><Icon.Instagram className={styles.FooterIcon + ' d-inline-block align-center m-2'}/></a>
+                            <a href="https://www.linkedin.com/company/lucbol-global-management-bpo/" target="_blank" rel="noopener noreferrer"><Icon.Linkedin className={styles.FooterIcon + ' d-inline-block align-center m-2'}/></a>
+                            <a href="https://www.instagram.com/lucbol_gm/" target="_blank" rel="noopener noreferrer"><Icon.Instagram className={styles.FooterIcon + ' d-inline-block align-center m-2'}/></a>
                         </Col>
                     </Row>
                 </Col>

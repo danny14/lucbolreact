@@ -15,9 +15,9 @@
 .OurServiceBrand h2{
     padding: 2rem 0rem 0rem 0rem;
     letter-spacing: 0.3em;
-    font-family: 'DM Sans';
+    font-family: "Anton", Arial, sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 40px;
     line-height: 50px;
 }
@@ -112,6 +112,8 @@
 }
 
 .OurServicesCardTitle {
+    font-family: "Anton", Arial, sans-serif;
+    font-weight: 400;
     text-align: center;
     color: var(--color-white) !important;
 }

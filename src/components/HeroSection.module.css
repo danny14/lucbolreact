@@ -35,10 +35,11 @@
 }
 
 .HeroSection button{
+    font-family: "Anton", Arial, sans-serif;
     border-radius: 50px;
     background-color: var(--color-deepblue);
     border: none;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 48px;
 }
 
@@ -66,6 +67,12 @@
     margin-top: 70px;
 }
 
+.OurPartnersContainer h3{
+    font-family: "Anton", Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.07em;
+}
+
 .OurPartnersContainer img{
     margin-top: 10px;
 }
@@ -82,10 +89,6 @@
     .HeroSection h2{
         font-size: 20px;
     }
-    
-    .HeroSection p{
-        font-size: 14px;
-    }
 
     .HeroSection button{
         width: auto !important;
@@ -99,15 +102,11 @@
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) { /*iPads, Tablets*/    
-    .HeroSection p{
-        padding-right: 100px;
-    }
+
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) { /*Small screens, laptops*/
-    /* .HeroSection p{
-        padding-right: 225px;
-    } */
+
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1200px) { /*Desktops, large screens*/
