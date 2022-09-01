@@ -25,19 +25,19 @@ function NavScroll() {
   };
 
   return (
-    <Navbar id="Home" expand="lg" className={styles.NavBarLucbol}>
+    <Navbar collapseOnSelect id="Home" expand="lg" className={styles.NavBarLucbol}>
       {/* <Container fluid> */}
-        <Navbar.Brand className={styles.NavBarBrandLogo} href="#Home"><img src={LucbolLogo} alt='Lucbol Global Management' className="d-inline-block align-top"></img></Navbar.Brand>
+        <Navbar.Brand className={styles.NavBarBrandLogo} href="#Home"><img src={LucbolLogo} alt='Lucbol Global Management' className="d-inline-block align-top" width="220" height="90"></img></Navbar.Brand>
         <NavDropdown title={<img src={imgLanguage} alt='Language Flag' className="d-inline-block align-top" width="25" height="25"></img>} id="navbarScrollingDropdown">
             <NavDropdown.Item onClick={() => {language.setLanguage('en-US'); validation(true);}} variant="outline-success"><FormattedMessage id='navbar.en' defaultMessage='ENGLISH' /></NavDropdown.Item>
             <NavDropdown.Item onClick={() => {language.setLanguage('es-ES'); validation(false);}} variant="outline-success"><FormattedMessage id='navbar.es' defaultMessage='SPANISH' /></NavDropdown.Item>
         </NavDropdown>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
           <Nav
             className="me-auto my-2 my-lg-0 mx-auto text-center"
             style={{ maxHeight: '330px' }}
-            navbarScroll
+            responsive-navbar-nav
           >
             <Nav.Link className={styles.NavCenter} href="#Home"><FormattedMessage id='navbar.home' defaultMessage='Home' /></Nav.Link>
             <Nav.Link className={styles.NavCenter} href="#AboutUs"><FormattedMessage id='navbar.aboutUs' defaultMessage='About Us'/></Nav.Link>
@@ -47,7 +47,7 @@ function NavScroll() {
             <a href='#ContactUs'><Button className={styles.ButtonClass + ' mx-auto text-center'}><FormattedMessage id='navbar.contactUs' defaultMessage='Contact US' /> <Icon.Telephone className={styles.ButtonRotate}/></Button></a>            
           </Nav>
           <Nav className={styles.NavBarRedes + " d-flex justify-content-around flex-row mx-auto my-2 my-lg-0"} style={{ maxHeight: '100px' }}>
-          <Nav.Link href="https://www.facebook.com/people/Lucbol-Global-Managment/100069916750216/" target="_blank" rel="noopener noreferrer"><Icon.Facebook className={styles.NavIcon + ' d-inline-block flex-row align-top'}  width="25" height="25"/></Nav.Link>
+            <Nav.Link href="https://www.facebook.com/people/Lucbol-Global-Managment/100069916750216/" target="_blank" rel="noopener noreferrer"><Icon.Facebook className={styles.NavIcon + ' d-inline-block flex-row align-top'}  width="25" height="25"/></Nav.Link>
             <Nav.Link href="https://www.linkedin.com/company/lucbol-global-management-bpo/" target="_blank" rel="noopener noreferrer"><Icon.Linkedin className={styles.NavIcon + ' d-inline-block flex-row align-top'} width="25" height="25"/></Nav.Link>
             <Nav.Link href="https://www.instagram.com/lucbol_gm/" target="_blank" rel="noopener noreferrer"><Icon.Instagram className={styles.NavIcon + ' d-inline-block flex-row align-top'} width="25" height="25"/></Nav.Link>
           </Nav>

@@ -23,6 +23,8 @@
 }
 
 .ButtonClass {
+    font-family: "Anton", Arial, sans-serif;
+    font-weight: 400;
     border-radius: 58px !important;
     background-color: var(--color-deepblue) !important;
     border: none !important;
@@ -60,12 +62,14 @@
     .NavBarBrandLogo {
         margin-left: 1rem !important;
         margin-bottom: 1rem;
-    }
-    
+    }    
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) { /*iPads, Tablets*/
-
+    .NavBarBrandLogo {
+        margin-left: 1rem !important;
+        margin-bottom: 1rem;
+    }   
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) { /*Small screens, laptops*/

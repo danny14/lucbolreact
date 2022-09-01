@@ -39,8 +39,8 @@ export default function HeroSection(){
     };
     return (
         <Container fluid id="HeroSection" className={styles.HeroSectionContainer}>
-            <Row sm={1}>
-                <Col md={6}>
+            <Row xs={1} sm={1} md={2} lg={2}>
+                <Col >
                     <div className={styles.HeroSection + ' m-5 p-2'}>
                         <h2 className='mt-3'><FormattedMessage id='heroSection.title' defaultMessage="LUCBOL GLOBAL MANAGEMENT" /></h2>
                         <h1 className='mt-3'><FormattedMessage id='heroSection.subtitle' defaultMessage="CALL CENTER OUTSOURCING" /></h1>
@@ -67,7 +67,7 @@ export default function HeroSection(){
                         </div>
                     </div>
                 </Col>
-                <Col md={6}>
+                <Col >
                     <div className={styles.HeroSection + ' m-5 p-2'}></div>
                 </Col>
             </Row>
