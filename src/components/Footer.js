@@ -38,7 +38,7 @@ export default function Footer(){
                         <div><Icon.EnvelopeFill className={styles.FooterIcon}/> info@lucbol.com</div>
                     </Row>
                     <Row>
-                        <div><Icon.TelephoneFill className={styles.FooterIcon}/> (US) +1 954 751 6201  -  (US) +1 954 751 6202</div>
+                        <div><Icon.TelephoneFill className={styles.FooterIcon}/> (US) +1 727 253 2003  -  (US) +1 813 381 9998</div>
                     </Row>
                     <Row>
                         <div><Icon.HouseFill className={styles.FooterIcon}/> Tampa, Florida  -  Medellin, Colombia</div>

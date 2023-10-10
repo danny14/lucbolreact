@@ -65,8 +65,8 @@ export default function Forms(){
                         <Row>
                             <Col className="ps-4">
                                 <Row className="fw-bold">Call us at:</Row>
-                                <Row>(US) +1 954 751 6201</Row>
-                                <Row>(US) +1 954 751 6202</Row>
+                                <Row>(US) +1 727 253 2003</Row>
+                                <Row>(US) +1 813 381 9998</Row>
                             </Col>                        
                         </Row>
                         <Row >
